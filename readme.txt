@@ -43,10 +43,10 @@ Valid license key should be entered for the plugin to function and to receive au
 == Changelog ==
 
 = 1.0.1 ( Jun 08, 2022 ) =
-* [Image hotspots] - Added the ability to control animation for popovers.
-* [Fluent form] - Fixed the issue with box-shadow not being applied.
+* [Image Hotspots] - Added the ability to control animation for popovers.
+* [Fluent Form] - Fixed the issue with box-shadow not being applied.
 * [General] - Fixed an error when using WP Toolkit searching for updates.
 * [General] - Fixed an error if Bricks theme is deactivated with BricksExtras still active.
 
 = 1.0.0 ( Jun 06, 2022 ) =
-* Initial release
+* Initial release.
