@@ -12,7 +12,7 @@ Lightweight component library for Oxygen Builder
 
 == Description ==
 
-Current Components:
+Current elements:
 
 1. Burger Trigger
 2. Dynamic Table
