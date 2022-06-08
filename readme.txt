@@ -14,11 +14,17 @@ Lightweight component library for Oxygen Builder
 
 Current Components:
 
-1. Dynamic Table
-2. Burger Trigger
-3. Offcanvas
-4. Modal
-5. Slide Menu
+1. Burger Trigger
+2. Dynamic Table
+3. Fluent Form
+4. Header Notification Bar
+5. Image Hotspots
+6. Modal
+7. Offcanvas
+8. Pro Alert
+9. Shortcode Wrapper
+10. Slide Menu
+11. Table of Contents
 
 == Installation ==
 
@@ -35,5 +41,12 @@ Current Components:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
-= 0.0.1 ( May ??, 2022 ) =
+
+= 1.0.1 ( Jun 08, 2022 ) =
+* [Image hotspots] - Added the ability to control animation for popovers.
+* [Fluent form] - Fixed the issue with box-shadow not being applied.
+* [General] - Fixed an error when using WP Toolkit searching for updates.
+* [General] - Fixed an error if Bricks theme is deactivated with BricksExtras still active.
+
+= 1.0.0 ( Jun 06, 2022 ) =
 * Initial release
