@@ -52,6 +52,10 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.0.3 ( Jun 24, 2022 ) =
+* [Parallax] - Improved the parallax scroll feature, new "default" setting for all devices.
+* [Star Rating] - Small improvement for the default CSS.
+
 = 1.0.2 ( Jun 21, 2022 ) =
 * [Dynamic Chart] - New element for displaying line/bar charts using dynamic data.
 * [Read More/Less] - New element for expanding/revealing content.
