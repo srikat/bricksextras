@@ -52,6 +52,13 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.0.4 ( Jul 05, 2022 ) =
+* [Dynamic Table] - Added option to specify column data type as "number", to allow for sorting by numbers.
+* [Dynamic Table] - Now allows for HTML tags from WYSIWYG fields inside the cells.
+* [Slide Menu] - Added "text indent" setting for indenting nested sub menu items.
+* [Image Hotspots] - Fixed the issue where marker background style wasn't visible.
+* [Table of Contents] - Fixed the issue with unique ID setting causing table not to show.
+
 = 1.0.3 ( Jun 24, 2022 ) =
 * [Parallax] - Improved the parallax scroll feature, new "default" setting for all devices.
 * [Star Rating] - Small improvement for the default CSS.
