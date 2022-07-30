@@ -52,6 +52,9 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.0.5 ( Jul 31, 2022 ) =
+* Fixed a fatal error due to change in the attributes of bricks/element/render_attributes filter.
+
 = 1.0.4 ( Jul 05, 2022 ) =
 * [Dynamic Table] - Added option to specify column data type as "number", to allow for sorting by numbers.
 * [Dynamic Table] - Now allows for HTML tags from WYSIWYG fields inside the cells.
