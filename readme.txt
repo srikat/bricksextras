@@ -16,18 +16,21 @@ Current elements:
 
 1. Burger Trigger
 2. Dynamic Chart
-3. Dynamic Table
-4. Fluent Form
-5. Header Notification Bar
-6. Image Hotspots
-7. Modal
-8. Offcanvas
-9. Pro Alert
-10. Read More/Less
-11. Shortcode Wrapper
-12. Slide Menu
-13. Star Rating
-14. Table of Contents
+3. Dynamic Lightbox
+4. Dynamic Table
+5. Fluent Form
+6. Header Notification Bar
+7. Image Hotspots
+8. Modal (template)
+9. Modal
+10. Offcanvas (template)
+11. Offcanvas
+12. Pro Alert
+13. Read More/Less
+14. Shortcode Wrapper
+15. Slide Menu
+16. Star Rating
+17. Table of Contents
 
 Current features:
 
@@ -51,6 +54,20 @@ Current features:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+
+= 1.0.6 ( Aug 16, 2022 ) =
+* [Dynamic Lightbox] - New element for being able to popup dynamic content from inside post loops.
+* [Offcanvas, Modal] - New nestable elements to replace older versions (previous "template" versions still available for backward compatibility or if you prefer to use templates).
+* [Read More / Less, Header Notification Bar, Pro Alert, Shortcode Wrapper, Pro Alert] - now supports nesting elements.
+* [Dynamic Tags] - Now supports being used inside AJAX added content (ex.: when using inside content dynamically added using WP Grid Builder's filters).
+* [Star Rating] - Now allows for any number of total stars.
+* [Slide Menu] - Now allows for elements being inside, either above/below the menu items.
+* [Table of contents] - Added ability to have "closed on page load".
+* [Burger Trigger] - Better default CSS to prevent bottom gap if changing the display setting.
+* [Fluent Form] - Fixed issue with dynamic data for Form ID not displaying form correctly.
+* [Fluent Form] - Fixed CSS specificity issues where styles added via class were being overridden by defaults.
+* [General] - A few small CSS fixes to account for Bricks v1.5's new default CSS.
+* [General] - Added support for Bricks' experimental feature "Add Element ID & class only as needed" (elements that need the element ID to function, will have an ID added automatically if there isn't one).
 
 = 1.0.5 ( Jul 31, 2022 ) =
 * Fixed a fatal error due to change in the attributes of bricks/element/render_attributes filter.
