@@ -55,6 +55,10 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.0.7 ( Aug 17, 2022 ) =
+* [Modal] - Added option to disable scroll when open.
+* [Star Rating] - Improved logic for star rating to avoid issue when using empty values from dynamic data.
+
 = 1.0.6 ( Aug 16, 2022 ) =
 * [Dynamic Lightbox] - New element for being able to popup dynamic content from inside post loops.
 * [Offcanvas, Modal] - New nestable elements to replace older versions (previous "template" versions still available for backward compatibility or if you prefer to use templates).
