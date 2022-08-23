@@ -55,6 +55,13 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.0.8 ( Aug 23, 2022 ) =
+* [Dynamic tag - Loop Index] - New tag "x_loop_index" for count inside query loops (with offset filter).
+* [Interactive features] - Now available for the div and block elements.
+* [Modal, Lightbox] - Added flex layout controls to main "content" settings for easier control over the inner content layout.
+* [Table of Contents] - Now supports including headings found inside separate containers.
+* [Burger Trigger] - Added "active line color" control.
+
 = 1.0.7 ( Aug 17, 2022 ) =
 * [Modal] - Added option to disable scroll when open.
 * [Star Rating] - Improved logic for star rating to avoid issue when using empty values from dynamic data.
