@@ -15,22 +15,26 @@ Lightweight component library for Oxygen Builder
 Current elements:
 
 1. Burger Trigger
-2. Dynamic Chart
-3. Dynamic Lightbox
-4. Dynamic Table
-5. Fluent Form
-6. Header Notification Bar
-7. Image Hotspots
-8. Modal (template)
-9. Modal
-10. Offcanvas (template)
-11. Offcanvas
-12. Pro Alert
-13. Read More/Less
-14. Shortcode Wrapper
-15. Slide Menu
-16. Star Rating
-17. Table of Contents
+2. Content Switcher
+3. Dynamic Chart
+4. Dynamic Lightbox
+5. Dynamic Table
+6. Fluent Form
+7. Header Notification Bar
+8. Header Search
+9. Image Hotspots
+10. Lottie
+11. Modal (template)
+12. Modal
+13. Offcanvas (template)
+14. Offcanvas
+15. Pro Alert
+16. Read More/Less
+17. Shortcode Wrapper
+18. Slide Menu
+19. Star Rating
+20. Table of Contents
+21. Toggle Switch
 
 Current features:
 
@@ -54,6 +58,23 @@ Current features:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+
+= 1.0.9 ( Sep 12, 2022 ) =
+* [Header Search] - New element for creating different types of header searches.
+* [Lottie] - New element for adding interactive Lottie animations.
+* [Toggle Switch] - New element for adding toggle switches (supports multiple toggles).
+* [Content Switcher] - New element for switching multiple versions of any content.
+* [Lightbox] - Added iFrame option for lightbox content.
+* [Dynamic Table] - Now supports being inside nested query loops.
+* [Image Hotspots] - Now supports being inside nested query loops.
+* [Dynamic Chart] - Now supports being inside nested query loops.
+* [Dynamic Chart] - If no data found, will now output nothing, instead of an empty chart.
+* [Modal] - Performance improvement (prevent images/video loading until modal opened).
+* [Star rating] - Added "gap" setting for stars.
+* [Lightbox] - Fixed lazy loading images not always showing in Safari.
+* [General] - Removed all slider controls to replace with number controls (to align with Bricks v1.5.1 removing the units dropdown).
+* [General] - Minor CSS specificity changes for Bricks v1.5.1.
+* [General] - Performance improvement for element CSS to prevent FOUC (also now respects user preferred CSS loading method as set in Bricks settings - inline or external files)
 
 = 1.0.8 ( Aug 23, 2022 ) =
 * [Dynamic tag - Loop Index] - New tag "x_loop_index" for count inside query loops (with offset filter).
