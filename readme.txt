@@ -59,6 +59,12 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.1.1 ( Sep 14, 2022 ) =
+* [Fluent Forms] - Switched over some control types to allow for CSS variables.
+* [Modal] - When using custom link for closing, browser will now follow the link after closing the modal.
+* [General] - Addressed an issue that was causing styling not to be applied when elements were being pulled from other templates inside of templates (ex.: the "template" element or "post content" element).
+* [Modal/OffCanvas] - Fixed issue with "template" versions that would cause the "hide in builder" setting to reset sometimes when moving the elements in the structure panel.
+
 = 1.1 ( Sep 13, 2022 ) =
 * [General] - Fixed an issue where inline CSS wasn't correctly output on some installs.
 
