@@ -60,6 +60,7 @@ Valid license key should be entered for the plugin to function and to receive au
 == Changelog ==
 
 = 1.1.1 ( Sep 14, 2022 ) =
+* [Header Search] - Fixed an issue with return (enter) key in Safari causing the search form to close.
 * [Fluent Forms] - Switched over some control types to allow for CSS variables.
 * [Modal] - When using custom link for closing, browser will now follow the link after closing the modal.
 * [General] - Addressed an issue that was causing styling not to be applied when elements were being pulled from other templates inside of templates (ex.: the "template" element or "post content" element).
