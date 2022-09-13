@@ -59,6 +59,9 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.1 ( Sep 13, 2022 ) =
+* [General] - Fixed an issue where inline CSS wasn't correctly output on some installs.
+
 = 1.0.9 ( Sep 12, 2022 ) =
 * [Header Search] - New element for creating different types of header searches.
 * [Lottie] - New element for adding interactive Lottie animations.
