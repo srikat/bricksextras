@@ -29,12 +29,13 @@ Current elements:
 13. Offcanvas (template)
 14. Offcanvas
 15. Pro Alert
-16. Read More/Less
-17. Shortcode Wrapper
-18. Slide Menu
-19. Star Rating
-20. Table of Contents
-21. Toggle Switch
+16. Pro Slider, Pro Slider Control, Pro Slider Gallery
+17. Read More/Less
+18. Shortcode Wrapper
+19. Slide Menu
+20. Star Rating
+21. Table of Contents
+22. Toggle Switch
 
 Current features:
 
@@ -58,6 +59,19 @@ Current features:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+
+= 1.1.2 ( Oct 07, 2022 ) =
+* [Pro Slider] - New element for building sliders/carousels.
+* [Pro Slider Control - New element for adding extras to sliders: Progress bars, counters, autoplay play/pause button.
+* [Pro Slider Gallery - New element for allowing to use the Pro Slider for dynamic galleries ex.: use ACF Gallery field or Meta Box Image Advanced or Media Library as the source of slide images.
+* [Dynamic Chart] - Added "pie / doughnut" chart type.
+* [Dynamic Lightbox] - Added easy way to add custom close buttons - "data-x-lightbox-close" attribute.
+* [Burger Trigger] - Added option to add button text.
+* [Table of Contents] - Smooth scrolling can now be disabled.
+* [Modal] - Clicking backdrop to close and ESC key to close now optional.
+* [Read More / Less] - Fixed issue where read more wouldn't size correctly when inside a modal.
+* [OffCanvas] - Fixed issue where Safari that would cause lazy loaded images not to render.
+* [Developer docs] - gLightbox instance now exposed, so lightbox can be controlled programmatically easily.
 
 = 1.1.1 ( Sep 14, 2022 ) =
 * [Header Search] - Fixed an issue with return (enter) key in Safari causing the search form to close.
@@ -104,7 +118,7 @@ Valid license key should be entered for the plugin to function and to receive au
 * [Dynamic Tags] - Now supports being used inside AJAX added content (ex.: when using inside content dynamically added using WP Grid Builder's filters).
 * [Star Rating] - Now allows for any number of total stars.
 * [Slide Menu] - Now allows for elements being inside, either above/below the menu items.
-* [Table of contents] - Added ability to have "closed on page load".
+* [Table of Contents] - Added ability to have "closed on page load".
 * [Burger Trigger] - Better default CSS to prevent bottom gap if changing the display setting.
 * [Fluent Form] - Fixed issue with dynamic data for Form ID not displaying form correctly.
 * [Fluent Form] - Fixed CSS specificity issues where styles added via class were being overridden by defaults.
