@@ -62,8 +62,8 @@ Valid license key should be entered for the plugin to function and to receive au
 
 = 1.1.2 ( Oct 07, 2022 ) =
 * [Pro Slider] - New element for building sliders/carousels.
-* [Pro Slider Control - New element for adding extras to sliders: Progress bars, counters, autoplay play/pause button.
-* [Pro Slider Gallery - New element for allowing to use the Pro Slider for dynamic galleries ex.: use ACF Gallery field or Meta Box Image Advanced or Media Library as the source of slide images.
+* [Pro Slider Control] - New element for adding extras to sliders: Progress bars, counters, autoplay play/pause button.
+* [Pro Slider Gallery] - New element for allowing to use the Pro Slider for dynamic galleries ex.: use ACF Gallery field or Meta Box Image Advanced or Media Library as the source of slide images.
 * [Dynamic Chart] - Added "pie / doughnut" chart type.
 * [Dynamic Lightbox] - Added easy way to add custom close buttons - "data-x-lightbox-close" attribute.
 * [Burger Trigger] - Added option to add button text.
