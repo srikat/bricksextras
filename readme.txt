@@ -60,7 +60,7 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
-= 1.1.3 ( Oct 10, 2022 ) =
+= 1.1.3 ( Oct 13, 2022 ) =
 * [Pro Slider] - Added option to change "focus" (was originally set to "center" as default).
 * [Pro Slider] - Added controls for navigation by mouse wheel.
 * [Pro Slider] - Reduced default slide padding and now no default padding if using code element to add custom slides.
