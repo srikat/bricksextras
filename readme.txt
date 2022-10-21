@@ -14,23 +14,23 @@ Lightweight component library for Oxygen Builder
 
 Current elements:
 
-1. Burger Trigger
-2. Content Switcher
-3. Dynamic Chart
-4. Dynamic Lightbox
-5. Dynamic Table
-6. Fluent Form
-7. Header Notification Bar
-8. Header Search
-9. Image Hotspots
-10. Lottie
-11. Modal (template)
-12. Modal
-13. Offcanvas (template)
-14. Offcanvas
-15. Pro Alert
-16. Pro Slider, Pro Slider Control, Pro Slider Gallery
-17. Read More/Less
+1. Before / After Image
+2. Burger Trigger
+3. Content Switcher
+4. Dynamic Chart
+5. Dynamic Lightbox
+6. Dynamic Table
+7. Fluent Form
+8. Header Notification Bar
+9. Header Search
+10. Image Hotspots
+11. Lottie
+12. Modal (template), Modal
+13. Offcanvas (template), Offcanvas
+14. Pro Alert
+15. Pro Slider, Pro Slider Control, Pro Slider Gallery
+16. Reading Progress Bar
+17. Read More / Less
 18. Shortcode Wrapper
 19. Slide Menu
 20. Star Rating
@@ -60,6 +60,18 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.1.4 ( Oct 21, 2022 ) =
+* [Reading Progress Bar] - New element for adding reading progress bars based on scroll position of containers, or of the whole page.
+* [Before / After Image] - New element for adding accessible before/after image sliders.
+* [Table of Contents] - Added option to automatically use heading text for the anchor links.
+* [Table of Contents] - Better support for Bricks' "Add Element ID & class as needed" setting (no longer required to add an ID to the element).
+* [Modal] - Added an option to disable "auto focus on first focusable element" when opened.
+* [Dynamic Table] - Added options to change/translate all text inside the pagination summary.
+* [Dynamic Table] - Bumped to the latest GridJS version.
+* [Dynamic Table] - Added an option to customize the number of pagination buttons.
+* [Dynamic Table] - Fixed the issue with certain characters ( åäö ) not displaying correctly inside the builder.
+* [Dynamic Lightbox] - Removed the default 900px max-width restriction on the container.
+
 = 1.1.3 ( Oct 13, 2022 ) =
 * [Pro Slider] - Added option to change "focus" (was originally set to "center" as default).
 * [Pro Slider] - Added controls for navigation by mouse wheel.
@@ -68,8 +80,8 @@ Valid license key should be entered for the plugin to function and to receive au
 
 = 1.1.2 ( Oct 07, 2022 ) =
 * [Pro Slider] - New element for building sliders/carousels.
-* [Pro Slider Control - New element for adding extras to sliders: Progress bars, counters, autoplay play/pause button.
-* [Pro Slider Gallery - New element for allowing to use the Pro Slider for dynamic galleries ex.: use ACF Gallery field or Meta Box Image Advanced or Media Library as the source of slide images.
+* [Pro Slider Control] - New element for adding extras to sliders: Progress bars, counters, autoplay play/pause button.
+* [Pro Slider Gallery] - New element for allowing to use the Pro Slider for dynamic galleries ex.: use ACF Gallery field or Meta Box Image Advanced or Media Library as the source of slide images.
 * [Dynamic Chart] - Added "pie / doughnut" chart type.
 * [Dynamic Lightbox] - Added easy way to add custom close buttons - "data-x-lightbox-close" attribute.
 * [Burger Trigger] - Added option to add button text.
