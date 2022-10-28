@@ -60,6 +60,16 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.1.5 ( Oct 28, 2022 ) =
+* [Pro Slider Control] - Added an option to create custom navigation arrows/buttons for Slider.
+* [Pro Slider Gallery] - Added an ability to link gallery images to Bricks' Lightbox.
+* [Dynamic Table] - Added "static" option - add rows/cells manually without query loop.
+* [Dynamic Table] - Alternative row styles for background / text colors.
+* [Modal] - Added "hashlink to close" option.
+* [Dynamic Lightbox] - Added "hashlink to close" option.
+* [Dynamic Lightbox] - Added "manual links" option to populate content dynamically from links. Supports images/videos/iFrames.
+* [Modal] - Fixed the issue with exit intent trigger not triggering in Safari.
+
 = 1.1.4 ( Oct 21, 2022 ) =
 * [Reading Progress Bar] - New element for adding reading progress bars based on scroll position of containers, or of the whole page.
 * [Before / After Image] - New element for adding accessible before/after image sliders.
