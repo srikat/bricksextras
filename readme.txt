@@ -61,7 +61,7 @@ Valid license key should be entered for the plugin to function and to receive au
 == Changelog ==
 
 = 1.1.6 ( Oct 30, 2022 ) =
-* [Pro Slider] Fixed a bug with counter being blank unless navigated.
+* [Pro Slider] Fixed a bug with the counter being blank unless navigated.
 
 = 1.1.5 ( Oct 28, 2022 ) =
 * [Pro Slider Control] - Added an option to create custom navigation arrows/buttons for Slider.
