@@ -14,28 +14,31 @@ Lightweight component library for Oxygen Builder
 
 Current elements:
 
-1. Before / After Image
-2. Burger Trigger
-3. Content Switcher
-4. Dynamic Chart
-5. Dynamic Lightbox
-6. Dynamic Table
-7. Fluent Form
-8. Header Notification Bar
-9. Header Search
-10. Image Hotspots
-11. Lottie
-12. Modal (template), Modal
-13. Offcanvas (template), Offcanvas
-14. Pro Alert
-15. Pro Slider, Pro Slider Control, Pro Slider Gallery
-16. Reading Progress Bar
-17. Read More / Less
-18. Shortcode Wrapper
-19. Slide Menu
-20. Star Rating
-21. Table of Contents
-22. Toggle Switch
+1. Back to Top
+2. Before / After Image
+3. Burger Trigger
+4. Content Switcher
+5. Dynamic Chart
+6. Dynamic Lightbox
+7. Dynamic Table
+8. Fluent Form
+9. Header Notification Bar
+10. Header Search
+11. Image Hotspots
+12. Interactive Cursor
+13. Lottie
+14. Modal (template), Modal
+15. Offcanvas (template), Offcanvas
+16. Popover / Tooltips
+17. Pro Alert
+18. Pro Slider, Pro Slider Control, Pro Slider Gallery
+19. Reading Progress Bar
+20. Read More / Less
+21. Shortcode Wrapper
+22. Slide Menu
+23. Star Rating
+24. Table of Contents
+25. Toggle Switch
 
 Current features:
 
@@ -59,6 +62,15 @@ Current features:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+
+= 1.1.7 ( Nov 10, 2022 ) =
+* [Back to Top] - New element for creating animated back to top buttons.
+* [Interactive Cursor] - New element for adding cursors that interact with other elements.
+* [Popovers/Tooltips] - New element for adding popovers or tooltips to elements.
+* [Modal] - Modals using "click" as trigger can now be used inside query loops.
+* [Interactive features] - Now added to most native elements.
+* [Fluent Form] - Added "progress steps" to progress bar style controls.
+* [Lightbox] - Fixed issue where CSS grid inside lightbox content wouldn't display correctly inside the builder.
 
 = 1.1.6 ( Oct 30, 2022 ) =
 * [Pro Slider] Fixed a bug with the counter being blank unless navigated.
