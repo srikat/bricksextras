@@ -63,6 +63,14 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.1.8 ( Nov 15, 2022 ) =
+* [Toggle Switch] - Added label layout controls to allow for stacking labels on mobile.
+* [Toggle Switch / Switcher] - Accessibility improvement - tablist/tabpanel & ARIA labels added when using multiple labels like tabs.
+* [Back to Top] - Fixed BricksProps CSS overriding the button SVG.
+* [Back to Top] - Fixed background circle being slightly visible over progress when on darker backgrounds.
+* [Read More] - Fixed read more not always opening when inside query loops.
+* [Dynamic Table] - Fixed an issue with columns not being resizable.
+
 = 1.1.7 ( Nov 10, 2022 ) =
 * [Back to Top] - New element for creating animated back to top buttons.
 * [Interactive Cursor] - New element for adding cursors that interact with other elements.
@@ -70,7 +78,7 @@ Valid license key should be entered for the plugin to function and to receive au
 * [Modal] - Modals using "click" as trigger can now be used inside query loops.
 * [Interactive features] - Now added to most native elements.
 * [Fluent Form] - Added "progress steps" to progress bar style controls.
-* [Lightbox] - Fixed issue where CSS grid inside lightbox content wouldn't display correctly inside the builder.
+* [Lightbox] - Fixed the issue where CSS grid inside lightbox content wouldn't display correctly inside the builder.
 
 = 1.1.6 ( Oct 30, 2022 ) =
 * [Pro Slider] Fixed a bug with the counter being blank unless navigated.
