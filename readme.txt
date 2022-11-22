@@ -30,15 +30,16 @@ Current elements:
 14. Modal (template), Modal
 15. Offcanvas (template), Offcanvas
 16. Popover / Tooltips
-17. Pro Alert
-18. Pro Slider, Pro Slider Control, Pro Slider Gallery
-19. Reading Progress Bar
-20. Read More / Less
-21. Shortcode Wrapper
-22. Slide Menu
-23. Star Rating
-24. Table of Contents
-25. Toggle Switch
+17. Pro Accordion
+18. Pro Alert
+19. Pro Slider, Pro Slider Control, Pro Slider Gallery
+20. Reading Progress Bar
+21. Read More / Less
+22. Shortcode Wrapper
+23. Slide Menu
+24. Star Rating
+25. Table of Contents
+26. Toggle Switch
 
 Current features:
 
@@ -62,6 +63,14 @@ Current features:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+
+= 1.1.9 ( Nov 23, 2022 ) =
+[Pro Accordion] - New element for building nestable and accessible accordions.
+[Table of Contents] - Now supports different open/close positions at different screen widths.
+[Pro Slider] - Added support for Bricks v.1.5.6 interactions (for triggering fadein type animations on elements inside slides).
+[Pro Slider] - Added overflow setting to allow slides to go outside of slide track.
+[Dynamic Table] - Added an option to change "no records found" text if there are no rows.
+[Toggle Switch] - Added an option to disable labels and just use the toggle switch.
 
 = 1.1.8 ( Nov 15, 2022 ) =
 * [Toggle Switch] - Added label layout controls to allow for stacking labels on mobile.
