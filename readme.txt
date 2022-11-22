@@ -65,12 +65,12 @@ Valid license key should be entered for the plugin to function and to receive au
 == Changelog ==
 
 = 1.1.9 ( Nov 23, 2022 ) =
-[Pro Accordion] - New element for building nestable and accessible accordions.
-[Table of Contents] - Now supports different open/close positions at different screen widths.
-[Pro Slider] - Added support for Bricks v.1.5.6 interactions (for triggering fadein type animations on elements inside slides).
-[Pro Slider] - Added overflow setting to allow slides to go outside of slide track.
-[Dynamic Table] - Added an option to change "no records found" text if there are no rows.
-[Toggle Switch] - Added an option to disable labels and just use the toggle switch.
+* [Pro Accordion] - New element for building nestable and accessible accordions.
+* [Table of Contents] - Now supports different open/close positions at different screen widths.
+* [Pro Slider] - Added support for Bricks v.1.5.6 interactions (for triggering fadein type animations on elements inside slides).
+* [Pro Slider] - Added overflow setting to allow slides to go outside of slide track.
+* [Dynamic Table] - Added an option to change "no records found" text if there are no rows.
+* [Toggle Switch] - Added an option to disable labels and just use the toggle switch.
 
 = 1.1.8 ( Nov 15, 2022 ) =
 * [Toggle Switch] - Added label layout controls to allow for stacking labels on mobile.
