@@ -23,30 +23,32 @@ Current elements:
 7. Dynamic Table
 8. Fluent Form
 9. Header Notification Bar
-10. Header Search
-11. Image Hotspots
-12. Interactive Cursor
-13. Lottie
-14. Modal (template), Modal
-15. Offcanvas (template), Offcanvas
-16. Popover / Tooltips
-17. Pro Accordion
-18. Pro Alert
-19. Pro Slider, Pro Slider Control, Pro Slider Gallery
-20. Reading Progress Bar
-21. Read More / Less
-22. Shortcode Wrapper
-23. Slide Menu
-24. Star Rating
-25. Table of Contents
-26. Toggle Switch
+10. Header Row
+11. Header Search
+12. Image Hotspots
+13. Interactive Cursor
+14. Lottie
+15. Modal (template), Modal
+16. Offcanvas (template), Offcanvas
+17. Popover / Tooltips
+18. Pro Accordion
+19. Pro Alert
+20. Pro Slider, Pro Slider Control, Pro Slider Gallery
+21. Reading Progress Bar
+22. Read More / Less
+23. Shortcode Wrapper
+24. Slide Menu
+25. Star Rating
+26. Table of Contents
+27. Toggle Switch
 
 Current features:
 
 1. Dynamic Tags
 2. Floating Effect
-3. Parallax Scroll
-4. Tilt Hover
+3. Header Extras
+4. Parallax Scroll
+5. Tilt Hover
 
 == Installation ==
 
@@ -63,6 +65,23 @@ Current features:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+
+= 1.2.0 ( Jan 03, 2023 ) =
+* [Header Extras] - New features added to Bricks' header template - (overlay headers, sticky on scroll, hide header after scrolling X added to any breakpoint globally, or per page/template).
+* [Header Row] - New element for more easily building headers in bricks (supports conditionally appearing in overlay or sticky headers, change styles when sticky etc).
+* [Pro Slider] - Added an option to change all aria-labels for pagination, nav arrows etc.
+* [Pro Slider] - Added a "conditional slider" option to disable slider if not enough slides to fill the slider viewport.
+* [Pro Slider] - Added an option to set horizontal flex alignment if there are not enough slides.
+* [Pro Slider] - Added an option to delay the first staggered animation.
+* [Pro Slider] - "Focus" setting can now be changed per breakpoint.
+* [Toggle Switch] - Query loop can now be used to populate "multiple labels".
+* [Dynamic Table] - New "Stackable table" option for stacking columns on mobile.
+* [Burger Trigger] - Now possible to hide the button text at different breakpoints.
+* [Interactive Cursor] - Cursor will now automatically shrink if moving position over an iFrame.
+* [Interactive Cursor] - Fixed the issue with cursor not reacting to readmore/less buttons.
+* [General] - Fixed compatibility issue with OffCanvas/Modal template dropdown with Bricks v1.6+.
+* [Dynamic Lightbox] - Fixed an issue with overflow resetting to "auto" on mobile.
+* [Table of Contents] - Fixed an issue where collapse depth wouldn't apply.
 
 = 1.1.9 ( Nov 23, 2022 ) =
 * [Pro Accordion] - New element for building nestable and accessible accordions.
