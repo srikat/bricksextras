@@ -66,6 +66,11 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.2.1 ( Jan 04, 2023 ) =
+* [Pro Slider / Gallery] - Added an option to change the slide list HTML tag (for changing to <ul> lists etc. if needed).
+* [Interactive Cursor] - Fixed the issue where cursor wasn't visible on some desktop devices that have touchscreen.
+* [Header Extras] - Fixed breakpoint issue causing warning with some older versions of PHP.
+
 = 1.2.0 ( Jan 03, 2023 ) =
 * [Header Extras] - New features added to Bricks' header template - (overlay headers, sticky on scroll, hide header after scrolling X added to any breakpoint globally, or per page/template).
 * [Header Row] - New element for more easily building headers in bricks (supports conditionally appearing in overlay or sticky headers, change styles when sticky etc).
