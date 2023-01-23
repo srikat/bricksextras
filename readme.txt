@@ -18,29 +18,30 @@ Current elements:
 2. Before / After Image
 3. Burger Trigger
 4. Content Switcher
-5. Dynamic Chart
-6. Dynamic Lightbox
-7. Dynamic Table
-8. Fluent Form
-9. Header Notification Bar
-10. Header Row
-11. Header Search
-12. Image Hotspots
-13. Interactive Cursor
-14. Lottie
-15. Modal (template), Modal
-16. Offcanvas (template), Offcanvas
-17. Popover / Tooltips
-18. Pro Accordion
-19. Pro Alert
-20. Pro Slider, Pro Slider Control, Pro Slider Gallery
-21. Reading Progress Bar
-22. Read More / Less
-23. Shortcode Wrapper
-24. Slide Menu
-25. Star Rating
-26. Table of Contents
-27. Toggle Switch
+5. Content Timeline
+6. Dynamic Chart
+7. Dynamic Lightbox
+8. Dynamic Table
+9. Fluent Form
+10. Header Notification Bar
+11. Header Row
+12. Header Search
+13. Image Hotspots
+14. Interactive Cursor
+15. Lottie
+16. Modal (template), Modal
+17. Offcanvas (template), Offcanvas
+18. Popover / Tooltips
+19. Pro Accordion
+20. Pro Alert
+21. Pro Slider, Pro Slider Control, Pro Slider Gallery
+22. Reading Progress Bar
+23. Read More / Less
+24. Shortcode Wrapper
+25. Slide Menu
+26. Star Rating
+27. Table of Contents
+28. Toggle Switch
 
 Current features:
 
@@ -49,6 +50,7 @@ Current features:
 3. Header Extras
 4. Parallax Scroll
 5. Tilt Hover
+6. X-Ray Mode
 
 == Installation ==
 
@@ -65,6 +67,18 @@ Current features:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+
+= 1.2.2 ( Jan 23, 2023 ) =
+* [Content Timeline] - New element for creating content timeline layouts.
+* [X-Ray Mode] - In-builder option for quickly viewing layout structures visually.
+* [Dynamic Lightbox] - Added "gallery" option to lightbox content for pulling in galleries into single lightbox.
+* [Dynamic Lightbox] - Added better support for WPGB infinite scroll (see support FAQ in docs).
+* [Image hotspots] - Added an option to add custom alt text to image.
+* [Dynamic Table] - No longer outputs "NaN" if column set to numbers and cell has no value.
+* [Dynamic Lightbox] - Fixed the issue with UI styles styling both close buttons and navigation together.
+* [Fluent Form] - Updated some selectors to match Fluent Forms flex-box column gaps.
+* [Header Extras] - Slight CSS change to avoid small jump if header set to be sticky immediately after scrolling.
+* [General] - Removed various default CSS settings for better support for mobile-first.
 
 = 1.2.1 ( Jan 04, 2023 ) =
 * [Pro Slider / Gallery] - Added an option to change the slide list HTML tag (for changing to <ul> lists etc. if needed).
