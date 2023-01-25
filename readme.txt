@@ -68,6 +68,11 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.2.3 ( Jan 26, 2023 ) =
+* [Read More] - Accessibility improvement (aria-expanded label).
+* [Dynamic Lightbox] - Fixed specificity issue causing width to appear incorrectly in builder.
+* [General] - Fixed an issue with Bricks v1.6.2 where some style settings were hidden if class selected.
+
 = 1.2.2 ( Jan 23, 2023 ) =
 * [Content Timeline] - New element for creating content timeline layouts.
 * [X-Ray Mode] - In-builder option for quickly viewing layout structures visually.
