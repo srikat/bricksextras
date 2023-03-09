@@ -38,10 +38,12 @@ Current elements:
 22. Reading Progress Bar
 23. Read More / Less
 24. Shortcode Wrapper
-25. Slide Menu
-26. Star Rating
-27. Table of Contents
-28. Toggle Switch
+25. Site Breadcrumbs
+26. Slide Menu
+27. Social Share
+28. Star Rating
+29. Table of Contents
+30. Toggle Switch
 
 Current features:
 
@@ -67,6 +69,28 @@ Current features:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+
+= 1.2.4 ( Mar 09, 2023 ) =
+* [Social Share] - New element for adding social share buttons.
+* [Site Breadcrumbs] - New element for adding site-wide breadcrumbs.
+* [Modal] - Now supports being inside nested query loops (up to 3 levels deep).
+* [OffCanvas] - Now supports being inside nested query loops (up to 3 levels deep)
+* [OffCanvas] - Added an option to fade in in addition to slide in for the Transition type.
+* [Pro Slider] - Added Splide lazy loading option.
+* [Pro Slider Gallery] - Added a setting to enable slider lazy loading for all gallery images (either Bricks or Splide lazy load).
+* [Pro Slider Gallery] - Added a setting to enable/disable SRCSET on images.
+* [General] - Added out-of-the-box support for WP Grid Builder's facets. Modal, OffCanvas, Pro Accordion, Pro Slider, Dynamic Lightbox, Social Share, Read More, Popover (for being used inside query loops when building filtered).
+* [Tilt Effect] - Scale now accepts decimal values ( 1.5 = 150%).
+* [Pro Accordion] - Added an option to change the HTML tag on the wrapper (for doing ul>li etc).
+* [Dynamic Table] - Added an option to set a fixed height for a scrollable table (header & footer remain fixed).
+* [Dynamic Lightbox] - Added an option to change UI color for video player in manual link mode.
+* [Dynamic Lightbox] - Can now use class added to headings or images directly for link selectors (before you may have needed to use `.my-class a` due to Bricks not adding the classes to the links, this is done automatically now).
+* [Content Timeline] - Reworked the logic for the line, for more accurate positioning.
+* [Content Timeline] - Added a `—x-timeline-progress` CSS variable that changes value from 1 - 100 as the timeline progresses (can be used to change styles on any inner elements based on timeline position).
+* [Interactive Cursor] - Added an option to change border-radius of ball/trails.
+* [X-Ray] - Slightly darker outlines by default for better visibility (users can change `—x-xray-color` CSS variable from Bricks CSS settings if wishing to change color).
+* [Modal] - Fixed the issue with close button not triggering if multiple modals are open simultaneously.
+* [Slide Menu] - Fixed the issue of not correctly outputting menu when populating `menu slug` using dynamic tags.
 
 = 1.2.3 ( Jan 26, 2023 ) =
 * [Read More] - Accessibility improvement (aria-expanded label).
