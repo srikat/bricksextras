@@ -53,6 +53,8 @@ Current features:
 4. Parallax Scroll
 5. Tilt Hover
 6. X-Ray Mode
+7. Adjacent Posts query loop extension
+8. Related Posts query loop extension
 
 == Installation ==
 
@@ -69,6 +71,24 @@ Current features:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+
+= 1.2.5 ( Apr 12, 2023 ) =
+* [Adjacent Posts] - New Query Loop extension for building custom prev/next post layout.
+* [Related Posts] - New Query Loop extension for displaying related posts within specific taxonomies.
+* [General] - Support added for JetSmartFilters for using the elements inside loops being filtered (Modal, Lightbox, OffCanvas, Pro Accordion, Social Share, Read More, Pro Slider & Popover).
+* [Dynamic Lightbox] - Now supports being inside nested query loops.
+* [Pro Slider] - Now supports being inside nested query loops (including syncing and controls).
+* [Pro Slider] - Added "adaptive height" option to allow slider to adapt to current active slide height.
+* [Pro Slider] - Added support for re-triggering "big" inner animations - fadeInUpBig, fadeInDownBig etc. from Bricks' interactions.
+* [Pro Slider Gallery] - Gallery images can now be linked to Bricks v1.7.2+ Lightbox.
+* [Site breadcrumbs] - Added more controls over output - excluding specific post/product categories or disabling categories.
+* [Dynamic Chart] - New horizontal option for bar/line charts. (labels up the Y-axis, values along the X-axis).
+* [Dynamic Chart] - Now allows for adding units before or after the values.
+* [Dynamic Chart] - Added option to add tooltips to charts.
+* [Dynamic Chart] - Fixed an issue where using large 7+ digit numbers (that resemble telephone numbers) as values wouldn't plot correctly if viewed on iOS.
+* [Header Extras] - Fixed Header Extras tab sometimes not appearing inside page settings.
+* [Header Search] - Fixed an issue with icons not changing size/colors if using custom SVGs.
+* [Dynamic Table] - Fixed an issue with "if no rows found" text not being customisable when pagination disabled.
 
 = 1.2.4 ( Mar 09, 2023 ) =
 * [Social Share] - New element for adding social share buttons.
