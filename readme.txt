@@ -88,7 +88,7 @@ Valid license key should be entered for the plugin to function and to receive au
 * [Dynamic Chart] - Fixed an issue where using large 7+ digit numbers (that resemble telephone numbers) as values wouldn't plot correctly if viewed on iOS.
 * [Header Extras] - Fixed Header Extras tab sometimes not appearing inside page settings.
 * [Header Search] - Fixed an issue with icons not changing size/colors if using custom SVGs.
-* [Dynamic Table] - Fixed an issue with "if no rows found" text not being customisable when pagination disabled.
+* [Dynamic Table] - Fixed an issue with "if no rows found" text not being customizable when pagination is disabled.
 
 = 1.2.4 ( Mar 09, 2023 ) =
 * [Social Share] - New element for adding social share buttons.
