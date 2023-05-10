@@ -22,28 +22,29 @@ Current elements:
 6. Dynamic Chart
 7. Dynamic Lightbox
 8. Dynamic Table
-9. Fluent Form
-10. Header Notification Bar
-11. Header Row
-12. Header Search
-13. Image Hotspots
-14. Interactive Cursor
-15. Lottie
-16. Modal (template), Modal
-17. Offcanvas (template), Offcanvas
-18. Popover / Tooltips
-19. Pro Accordion
-20. Pro Alert
-21. Pro Slider, Pro Slider Control, Pro Slider Gallery
-22. Reading Progress Bar
-23. Read More / Less
-24. Shortcode Wrapper
-25. Site Breadcrumbs
-26. Slide Menu
-27. Social Share
-28. Star Rating
-29. Table of Contents
-30. Toggle Switch
+9. Evergreen Countdown
+10. Fluent Form
+11. Header Notification Bar
+12. Header Row
+13. Header Search
+14. Image Hotspots
+15. Interactive Cursor
+16. Lottie
+17. Modal (template), Modal
+18. Offcanvas (template), Offcanvas
+19. Popover / Tooltips
+20. Pro Accordion
+21. Pro Alert
+22. Pro Slider, Pro Slider Control, Pro Slider Gallery
+23. Reading Progress Bar
+24. Read More / Less
+25. Shortcode Wrapper
+26. Site Breadcrumbs
+27. Slide Menu
+28. Social Share
+29. Star Rating
+30. Table of Contents
+31. Toggle Switch
 
 Current features:
 
@@ -71,6 +72,25 @@ Current features:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+
+= 1.2.6 ( May 10, 2023 ) =
+* [Evergreen Countdown] - New element for evergreen countdowns.
+* [Dynamic Chart] - New query loop option for dynamically adding new data points.
+* [Header Search] - Added "expand" search type.
+* [Pro Accordion] - Added an option to auto-add FAQ schema to all accordion items.
+* [Notification Bar] - The "show again until user clicks dismiss" now allows for showing again after a set time.
+* [Pro Slider Gallery] - Added an option to change the size of image when adding links (for use with Dynamic Lightbox).
+* [Hotspots] - Markers can now be links.
+* [Slide Menu] - Added customizable aria-label for dropdown arrows.
+* [Table of Contents] - Added "conditional display" option to remove table if no headings found.
+* [X-Ray] - Moved position of icon and can now be enabled/disabled from plugin settings page.
+* [Dynamic Lightbox] - Plyr assets no longer being fetched from the CDN.
+* [General] - Added support for using elements inside content filtered by Piotnet Grid's facets.
+* [General] - Some minor UI changes ready for Bricks v1.8.
+* [Lottie] - Fixed an issue with "hover" trigger where child elements would restart animation.
+* [Pro Slider] - Fixed an issue where styling wasn't correct inside builder if was inside Bricks' template element.
+* [Table of Contents] - Fixed an issue where adding non-numeric values in offset wasn't accepted.
+* [Modal] - Fixed an issue where very bottom of modal sometimes wasn't visible on mobile devices.
 
 = 1.2.5 ( Apr 12, 2023 ) =
 * [Adjacent Posts] - New Query Loop extension for building custom prev/next post layout.
