@@ -74,6 +74,9 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.2.8 ( June 02, 2023 ) =
+* [Pro Slider] - Fixed the issue that was causing the new autoplay control to not be correctly synced with the slider.
+
 = 1.2.7 ( June 02, 2023 ) =
 * [WS Form] - New element for adding/styling individual WS Form forms.
 * [Dynamic Lightbox] - No longer restricted by styling by class only.
