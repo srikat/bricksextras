@@ -45,6 +45,7 @@ Current elements:
 29. Star Rating
 30. Table of Contents
 31. Toggle Switch
+32. WS Form
 
 Current features:
 
@@ -73,24 +74,43 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.2.7 ( June 02, 2023 ) =
+* [WS Form] - New element for adding/styling individual WS Form forms.
+* [Dynamic Lightbox] - No longer restricted by styling by class only.
+* [Evergreen Countdown] - Added "redirect to URL" to actions.
+* [Pro Slider] - Added "clip direction" option for creating one-way overflowing sliders.
+* [Pro Slider Control] - New control type - "Autoplay Progress" displaying interval progress.
+* [Pro Slider Control] - New control type - "Slide content" for displaying any dynamic slide content outside of the slider.
+* [Pro Slider] - Added option to change easing on the slider.
+* [Pro Slider] - Added support for Bricks' v.1.8+ lazy loading change.
+* [Pro Slider] - Nav aria-labels now added in at the PHP level to prevent Google Page Speed not finding them.
+* [Pro Slider Gallery] - Added option to group images when using inside Bricks' Lightbox.
+* [Pro Slider] - Now loads the Splide CSS earlier on pages using Pro Slider to minimise FOUC.
+* [Dynamic Table] - Added new option for stacked columns to move labels onto their own line.
+* [OffCanvas] - Renamed to "Pro OffCanvas" in builder to prevent confusion with  Bricks' v.1.8+ element of same name.
+* [Content Timeline] - Added support for filtering timeline items with WP Grid Builder.
+* [Dynamic Chart] - (Dev) - Made chart Instance accessible for changing options/data dynamically using JS (see developer docs).
+* [Pro Slider] - Fixed the width issue in Safari when combining gallery links and autoWidth setting.
+* [interactive Cursor] - Fixed the issue where cursor would remain expanded after back to top was hidden.
+
 = 1.2.6 ( May 10, 2023 ) =
 * [Evergreen Countdown] - New element for evergreen countdowns.
 * [Dynamic Chart] - New query loop option for dynamically adding new data points.
 * [Header Search] - Added "expand" search type.
 * [Pro Accordion] - Added an option to auto-add FAQ schema to all accordion items.
-* [Notification Bar] - The "show again until user clicks dismiss" now allows for showing again after a set time.
-* [Pro Slider Gallery] - Added an option to change the size of image when adding links (for use with Dynamic Lightbox).
+* [Notification Bar] - The "show again until the user clicks dismiss" now allows for showing again after a set time.
+* [Pro Slider Gallery] - Added an option to change the size of the image when adding links (for use with Dynamic Lightbox).
 * [Hotspots] - Markers can now be links.
 * [Slide Menu] - Added customizable aria-label for dropdown arrows.
-* [Table of Contents] - Added "conditional display" option to remove table if no headings found.
-* [X-Ray] - Moved position of icon and can now be enabled/disabled from plugin settings page.
-* [Dynamic Lightbox] - Plyr assets no longer being fetched from the CDN.
+* [Table of Contents] - Added "conditional display" option to remove the table if no headings are found.
+* [X-Ray] - Moved the position of the icon and can now be enabled/disabled from the plugin settings page.
+* [Dynamic Lightbox] - Plyr assets are no longer being fetched from the CDN.
 * [General] - Added support for using elements inside content filtered by Piotnet Grid's facets.
-* [General] - Some minor UI changes ready for Bricks v1.8.
-* [Lottie] - Fixed an issue with "hover" trigger where child elements would restart animation.
-* [Pro Slider] - Fixed an issue where styling wasn't correct inside builder if was inside Bricks' template element.
+* [General] - Some minor UI changes are ready for Bricks v1.8.
+* [Lottie] - Fixed an issue with the "hover" trigger where child elements would restart the animation.
+* [Pro Slider] - Fixed an issue where styling wasn't correct inside the builder if was inside Bricks' template element.
 * [Table of Contents] - Fixed an issue where adding non-numeric values in offset wasn't accepted.
-* [Modal] - Fixed an issue where very bottom of modal sometimes wasn't visible on mobile devices.
+* [Modal] - Fixed an issue where the very bottom of the modal sometimes wasn't visible on mobile devices.
 
 = 1.2.5 ( Apr 12, 2023 ) =
 * [Adjacent Posts] - New Query Loop extension for building custom prev/next post layout.
