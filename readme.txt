@@ -74,6 +74,13 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.2.9 ( June 16, 2023 ) =
+* [General] - Compatibility for Bricks v1.8.1+.
+* [Pro Accordion] - Improve default structure (heading instead of text element for accordion title).
+* [Pro Accordion] - Improve how Schema markup is added to allow for use with Perfmatters' "delay until user interaction" setting.
+* [Fluent Form] - Added checkbox typography settings.
+* [Fluent Form] - New style settings for form wrapper.
+
 = 1.2.8 ( June 02, 2023 ) =
 * [Pro Slider] - Fixed the issue that was causing the new autoplay control to not be correctly synced with the slider.
 
