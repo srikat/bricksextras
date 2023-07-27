@@ -49,7 +49,7 @@ Current elements:
 
 Current features:
 
-1. Conditions
+1. Extra Conditions
 2. Dynamic Tags
 3. Floating Effect
 4. Header Extras
@@ -75,10 +75,14 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.3.1 ( July 27, 2023 ) =
+* [Conditions] - Fixed an issue where some conditions weren't being applied.
+* [Conditions] - Added WishList Member condition.
+
 = 1.3.0 ( July 27, 2023 ) =
 * [Conditions] - Added the first batch of extra conditions to Bricks for a variety of use cases + integrations with membership plugins.
 * [Dynamic Lightbox] - Added support for adding custom prev/next buttons inside lightbox content area when using nest elements and grouping.
-* [Site Breadcrumbs] - Added truncate option to add post title character limit.
+* [Site Breadcrumbs] - Added truncate option to add post title character limit. 
 * [Site Breadcrumbs] - Added an option to use icon as home link.
 * [Pro Slider] - Added better support for adding sliders inside sliders.
 * [Content Timeline] - Can now change the HTML tag on the inner container (ideal for ul > li).
