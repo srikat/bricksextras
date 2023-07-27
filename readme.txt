@@ -49,14 +49,15 @@ Current elements:
 
 Current features:
 
-1. Dynamic Tags
-2. Floating Effect
-3. Header Extras
-4. Parallax Scroll
-5. Tilt Hover
-6. X-Ray Mode
-7. Adjacent Posts query loop extension
-8. Related Posts query loop extension
+1. Conditions
+2. Dynamic Tags
+3. Floating Effect
+4. Header Extras
+5. Parallax Scroll
+6. Tilt Hover
+7. X-Ray Mode
+8. Adjacent Posts query loop extension
+9. Related Posts query loop extension
 
 == Installation ==
 
@@ -73,6 +74,20 @@ Current features:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+
+= 1.3.0 ( July 27, 2023 ) =
+* [Conditions] - Added the first batch of extra conditions to Bricks for a variety of use cases + integrations with membership plugins.
+* [Dynamic Lightbox] - Added support for adding custom prev/next buttons inside lightbox content area when using nest elements and grouping.
+* [Site Breadcrumbs] - Added truncate option to add post title character limit.
+* [Site Breadcrumbs] - Added an option to use icon as home link.
+* [Pro Slider] - Added better support for adding sliders inside sliders.
+* [Content Timeline] - Can now change the HTML tag on the inner container (ideal for ul > li).
+* [Dynamic Tags] - Added "x_parent_loop_index" for getting index from parent / grand parent query loops.
+* [Pro Slider] - Fixed an issue where image elements wouldn't always be picked up by Bricks lazy load if autoscroll was enabled.
+* [Dynamic Chart] - Fixed issue where tooltips wouldn't pick up values from doughnut type charts.
+* [Dynamic Chart] - Updated from v3.x to v4.x of chartJS.
+* [General] - Fixed an issue where Piotnet Grid's AJAX search facet wouldn't work.
+* [General] - Improved how element CSS is being added to allow for elements to be used inside post content area or inside Bricks' popup templates.
 
 = 1.2.9 ( June 16, 2023 ) =
 * [General] - Compatibility for Bricks v1.8.1+.
