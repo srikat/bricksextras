@@ -49,7 +49,7 @@ Current elements:
 
 Current features:
 
-1. Extra Conditions
+1. Extra Conditions - General, Membership, WooCommerce
 2. Dynamic Tags
 3. Floating Effect
 4. Header Extras
@@ -74,6 +74,21 @@ Current features:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+
+= 1.3.3 ( August 02, 2023 ) =
+* [WooCommerce Conditions] - New conditions based around products/cart/users.
+* [General Conditons] - New general conditions (now 24 in total) for various common use-cases within WP. Added these: Body classes, Current day of month, Current month, Current year, Has custom excerpt, Has post content, Language (Polylang), Loop item number, Published during the last.
+* [Member Conditions] - Added Paid Membership Pro.
+* [Member Conditions] - Added WooCommerce Subscriptions.
+* [Pro Accordion] - Improved the scroll-to logic to make it easier to have reader-friendly hash links when using loops.
+* [General] - Improvement on Lenis support, to make sure popup type elements are still scrollable if they contain content larger than the viewport height.
+
+= 1.3.2 ( July 31, 2023 ) =
+* [Membership Conditions] - Added SureMembers (Access group) condition.
+* [General Conditions] - Added "Page type", "Page parent" and "WPML language" conditions.
+* [Modal/OffCanvas/Lightbox] - Added support for stopping scroll when opened if using Lenis smooth scrolling (like with BricksForge).
+* [Pro Slider] - Fixed an issue with clip direction not being applied.
+* [General] - Fixed PHP warning for PHP 8.2.
 
 = 1.3.1 ( July 27, 2023 ) =
 * [Conditions] - Fixed an issue where some conditions weren't being applied.
