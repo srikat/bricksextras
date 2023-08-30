@@ -75,11 +75,22 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.3.4 ( August 30, 2023 ) =
+* [General Conditions] - Added "Date field value", "Datetime field value", "Has child category", "TranslatePress language", "Author has CPT entry" and "At least 1 entry exists (for the selected CPT)" conditions.
+* [WooCommerce Conditions] - Added "Product allows backorders", "Product on backorder", "Product upsell count", "Product Cross-sell count", "Product has category" and "Product has tag" conditions.
+* [Pro Slider] - Added "intersection" options to autoplay & autoscroll, for starting only when slider comes into view.
+* [Site Breadcrumbs] - Added an option to include CPT archive link for CPTs.
+* [Social Share] - Now can be used to share taxonomy archive URLs.
+* [Read More] - Improved button width setting to allow any units and variables.
+* [Header Extras] - Sticky header CSS removed from pages where it is disabled.
+* [Member Conditions] - Fixed an issue with EDD subscriptions product dropdown not displaying.
+* [General Conditions] - Fixed an issue that could cause JetEngine custom fields not to display on archive pages.
+
 = 1.3.3 ( August 02, 2023 ) =
 * [WooCommerce Conditions] - New conditions based around products/cart/users.
 * [General Conditons] - New general conditions (now 24 in total) for various common use-cases within WP. Added these: Body classes, Current day of month, Current month, Current year, Has custom excerpt, Has post content, Language (Polylang), Loop item number, Published during the last.
-* [Member Conditions] - Added Paid Membership Pro.
-* [Member Conditions] - Added WooCommerce Subscriptions.
+* [Membership Conditions] - Added Paid Membership Pro.
+* [Membership Conditions] - Added WooCommerce Subscriptions.
 * [Pro Accordion] - Improved the scroll-to logic to make it easier to have reader-friendly hash links when using loops.
 * [General] - Improvement on Lenis support, to make sure popup type elements are still scrollable if they contain content larger than the viewport height.
 
