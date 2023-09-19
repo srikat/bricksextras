@@ -90,7 +90,7 @@ Valid license key should be entered for the plugin to function and to receive au
 * [Table of Contents] - Added JS event that fires conditionally if table of contents is empty.
 * [General] Performance improvement - reduced database queries on front end.
 * [Header Extras] - Fix issue where sticky header wouldn't be applied when using across multiple header templates.
-[Star Rating] Addressed PHP deprecation notice for PHP 8.1+.
+* [Star Rating] Addressed PHP deprecation notice for PHP 8.1+.
 
 = 1.3.4 ( August 30, 2023 ) =
 * [General Conditions] - Added "Date field value", "Datetime field value", "Has child category", "TranslatePress language", "Author has CPT entry" and "At least 1 entry exists (for the selected CPT)" conditions.
