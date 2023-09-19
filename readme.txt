@@ -36,16 +36,18 @@ Current elements:
 20. Pro Accordion
 21. Pro Alert
 22. Pro Slider, Pro Slider Control, Pro Slider Gallery
-23. Reading Progress Bar
-24. Read More / Less
-25. Shortcode Wrapper
-26. Site Breadcrumbs
-27. Slide Menu
-28. Social Share
-29. Star Rating
-30. Table of Contents
-31. Toggle Switch
-32. WS Form
+23. Pro Tabs
+24. Reading Progress Bar
+25. Read More / Less
+26. Shortcode Wrapper
+27. Site Breadcrumbs
+28. Slide Menu
+29. Social Share
+30. Star Rating
+31. Table of Contents
+32. Toggle Switch
+33. WPGB Facet Styler
+34. WS Form
 
 Current features:
 
@@ -74,6 +76,21 @@ Current features:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+
+= 1.3.5 ( September 19, 2023 ) =
+* [Pro Tabs] New nestable element for adding accessible tabs with mobile accordion.
+* [WPGB Facet Styler] - A new element based on WP Grid Builder's facet element for easier and comprehensive styling.
+* [Popover] Added an option for popover to follow cursor.
+* [Popover] Added interaction delay option.
+* [Popover] Improvement on how the popover moves when moving between multiple triggers.
+* [Pro Slider Gallery] Added options to add max no. of images and randomize order.
+* [Pro Slider] Accessibility improvement - keyboard setting default changed to "focused".
+* [General Conditions] "Published during last.." condition can now be used for any post type.
+* [WooCommerce Conditions] Added "Current product in cart" condition.
+* [Table of Contents] - Added JS event that fires conditionally if table of contents is empty.
+* [General] Performance improvement - reduced database queries on front end.
+* [Header Extras] - Fix issue where sticky header wouldn't be applied when using across multiple header templates.
+[Star Rating] Addressed PHP deprecation notice for PHP 8.1+.
 
 = 1.3.4 ( August 30, 2023 ) =
 * [General Conditions] - Added "Date field value", "Datetime field value", "Has child category", "TranslatePress language", "Author has CPT entry" and "At least 1 entry exists (for the selected CPT)" conditions.
