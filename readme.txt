@@ -77,6 +77,11 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.3.6 ( September 21, 2023 ) =
+* [General] Support for Bricks' infinite scroll + AJAX pagination added to all interactive elements.
+* [WPGB Facet Styler] Added more style controls for dropdowns (multiple selection).
+* [Star Rating] Fixed an issue from v1.3.5 with some dynamic tags not working for star values.
+
 = 1.3.5 ( September 19, 2023 ) =
 * [Pro Tabs] New nestable element for adding accessible tabs with mobile accordion.
 * [WPGB Facet Styler] - A new element based on WP Grid Builder's facet element for easier and comprehensive styling.
