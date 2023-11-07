@@ -19,35 +19,36 @@ Current elements:
 3. Burger Trigger
 4. Content Switcher
 5. Content Timeline
-6. Dynamic Chart
-7. Dynamic Lightbox
-8. Dynamic Table
-9. Evergreen Countdown
-10. Fluent Form
-11. Header Notification Bar
-12. Header Row
-13. Header Search
-14. Image Hotspots
-15. Interactive Cursor
-16. Lottie
-17. Modal (template), Modal
-18. Offcanvas (template), Offcanvas
-19. Popover / Tooltips
-20. Pro Accordion
-21. Pro Alert
-22. Pro Slider, Pro Slider Control, Pro Slider Gallery
-23. Pro Tabs
-24. Reading Progress Bar
-25. Read More / Less
-26. Shortcode Wrapper
-27. Site Breadcrumbs
-28. Slide Menu
-29. Social Share
-30. Star Rating
-31. Table of Contents
-32. Toggle Switch
-33. WPGB Facet Styler
-34. WS Form
+6. Copy To Clipboard
+7. Dynamic Chart
+8. Dynamic Lightbox
+9. Dynamic Table
+10. Evergreen Countdown
+11. Fluent Form
+12. Header Notification Bar
+13. Header Row
+14. Header Search
+15. Image Hotspots
+16. Interactive Cursor
+17. Lottie
+18. Modal (template), Modal
+19. Offcanvas (template), Offcanvas
+20. Popover / Tooltips
+21. Pro Accordion
+22. Pro Alert
+23. Pro Slider, Pro Slider Control, Pro Slider Gallery
+24. Pro Tabs
+25. Reading Progress Bar
+26. Read More / Less
+27. Shortcode Wrapper
+28. Site Breadcrumbs
+29. Slide Menu
+30. Social Share
+31. Star Rating
+32. Table of Contents
+33. Toggle Switch
+34. WPGB Facet Styler
+35. WS Form
 
 Current features:
 
@@ -76,6 +77,23 @@ Current features:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+
+= 1.3.7 ( November 07, 2023 ) =
+* [Copy to Clipboard] - New nestable button element for copying text from elements, or from dynamic data.
+* [Dynamic Lightbox] - Added support for captions (for both gallery and manual link options).
+* [Pro Slider] - Added gradient fade effect option for 'loop' sliders.
+* [Pro Slider] - Defaults changed for new sliders - no default background styles added to slide element.
+* [Slide Menu] - Accessibility improvement, will now close with ESC key or clicking outside the menu.
+* [Popover] - Accessibility improvement, Open a popover via keyboard will close the previously opened ones.
+* [Popover] - Accessibility improvement, focused popover will now close with ESC key.
+* [Social Share] - Custom URL option now accepts dynamic tags.
+* [Pro Accordion] - Support added for having pro accordions inside of pro accordions.
+* [WS Forms] - Can now style the 'success messages' that appears outside of the form itself.
+* [WPGB styler] - New style options for the selection facet buttons.
+* [Content Timeline] - Option added to alternate text-align.
+* [Conditions] - Fixed the issue with some conditions where zero value would still show element.
+* [Pro Tabs] - Fixed z-index issue with animated tabs showing behind tab background color.
+* [Site Breadcrumbs] - Fixed issue where the 'name' attribute wasn't being output on the 'blog' page.
 
 = 1.3.6 ( September 21, 2023 ) =
 * [General] Support for Bricks' infinite scroll + AJAX pagination added to all interactive elements.
