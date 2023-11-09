@@ -78,6 +78,10 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.3.8 ( November 09, 2023 ) =
+* [Slide Menu] - Fixed WordPress 6.4 preventing slide menu from opening in some cases.
+* [General] - Fixed CSS from v1.3.7 causing a few ACSS variables to not be applied.
+
 = 1.3.7 ( November 07, 2023 ) =
 * [Copy to Clipboard] - New nestable button element for copying text from elements, or from dynamic data.
 * [Dynamic Lightbox] - Added support for captions (for both gallery and manual link options).
