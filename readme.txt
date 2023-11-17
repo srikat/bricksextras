@@ -78,6 +78,14 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.3.9 ( November 17, 2023 ) =
+* [Pro Slider] - Now supports multiple synced sliders.
+* [Pro Slider] - New option for allowing independent slider scrolling when using syncing.
+* [Fluent Forms] - Submit button styling will now override Fluent Forms new default inline styles.
+* [Fluent Forms] - Reworked the checkbox/radio styling for more control.
+* [Pro Tabs] - Addressed an issue causing first item to be open in mobile accordion.
+* [General] - Fixed stdClass() issue.
+
 = 1.3.8 ( November 09, 2023 ) =
 * [Slide Menu] - Fixed WordPress 6.4 preventing slide menu from opening in some cases.
 * [General] - Fixed CSS from v1.3.7 causing a few ACSS variables to not be applied.
