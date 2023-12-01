@@ -78,6 +78,18 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.4.0 ( Dec 1, 2023 ) =
+* [Pro Slider Control] - Added the ability to display data from prev/next or current slides.
+* [Breadcrumbs] - Added an option to remove current page/post title from breadcrumbs.
+* [Dynamic Lightbox] - Added an option to reposition the captions directly underneath the lightbox content.
+* [Pro Offcanvas] - Focus moving back to trigger when Offcanvas closed is now optional.
+* [Pro Tabs] - Now supports multiple "Read more" elements inside tab content.
+* [WPGridBuilder Facets] - Added options to align radio/checkboxes horizontally.
+* [Copy to Clipboard] - Added option to strip HTML tags from copied content.
+* [WS Forms] - More typography settings for general text/headings inside the form.
+* [Conditions] - Added != operator to "Author has CPT" entry condition.
+* [General] - Elements/features will now continue to function if the license is removed from client sites (needs to be active to receive updates).
+
 = 1.3.9 ( November 17, 2023 ) =
 * [Pro Slider] - Now supports multiple synced sliders.
 * [Pro Slider] - New option for allowing independent slider scrolling when using syncing.
