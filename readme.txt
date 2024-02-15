@@ -1,9 +1,9 @@
 === BricksExtras ===
 Contributors: David Browne, Sridhar Katakam
 Tags: bricks, bricks builder
-Requires at least: 4.7
+Requires at least: 6.4.2
 Tested up to: 10.0.0
-Requires PHP: 5.6
+Requires PHP: 8.0
 Stable tag: trunk
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.txt
@@ -61,6 +61,7 @@ Current features:
 7. X-Ray Mode
 8. Adjacent Posts query loop extension
 9. Related Posts query loop extension
+10. Helper functions to allow control elements dynamically via interactions (see interactions tab in docs)
 
 == Installation ==
 
@@ -77,6 +78,26 @@ Current features:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+
+= 1.4.1 ( Feb 15, 2023 ) =
+* [General] - Added support for elements to be used inside Bricks' new AJAX search results, AJAX filters and AJAX popup content.
+* [Element Interactions] - New "triggers" added in Bricks interactions options for many elements.
+* [Pro Accordion] - New option for toggling accordion behavior across breakpoints.
+* [Countdown] - Now includes fixed end times/date via dynamic data (renamed to Pro Countdown).
+* [Pro Tabs] - Can now open tabs/accordion with URL parameters.
+* [General Conditions] - Added "post ancestor" & "post type" conditions.
+* [Dynamic Table] - New option for adding custom attributes to cells (for custom styling per column).
+* [WS Form] - New styling options for international phone inputs and country dropdown.
+* [Site Breadcrumbs] - Added PHP filter for customizing/adding to breadcrumb trail output.
+* [General] - Added better support for JetSmartFilters facets.
+* [General] - Better support for WPML auto-translate across elements.
+* [Interactive Options] - New option to change glare color.
+* [Pro Slider Gallery] - Added option to change animation type for Bricks' Lightbox.
+* [Pro Slider Gallery] - Fixed issue where offset/randomize could cause error if no images found in gallery.
+* [Pro Slider Gallery] - Fixed issue where Bricks' lightbox would group all images if slider was repeated inside query loop.
+* [Social Share] - Fixed "links not crawlable" warning if using Mastodon link.
+* [Developer] - Instances for dynamic table / dynamic chart now exposed, now can be used inside filtered content.
+* [Developer] - Lost of helper functions added to allow control elements dynamically via interactions (see interactions tab in docs).
 
 = 1.4.0 ( Dec 1, 2023 ) =
 * [Pro Slider Control] - Added the ability to display data from prev/next or current slides.
