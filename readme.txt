@@ -79,7 +79,11 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
-= 1.4.1 ( Feb 15, 2023 ) =
+= 1.4.2 ( Feb 27, 2024 ) =
+* [Header Extras] - Overlay/sticky header now compatible with sites/pages using Bricks' "boxed" layout option.
+* [Dynamic Table] - Fixed the issue where 'echo' dynamic tag wasn't always outputting correctly inside of cells.
+
+= 1.4.1 ( Feb 15, 2024 ) =
 * [General] - Added support for elements to be used inside Bricks' new AJAX search results, AJAX filters and AJAX popup content.
 * [Element Interactions] - New "triggers" added in Bricks interactions options for many elements.
 * [Pro Accordion] - New option for toggling accordion behavior across breakpoints.
