@@ -79,6 +79,11 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.4.3 ( Mar 12, 2024 ) =
+* [Star Ratings] - Fixed issue with icon size not working with SVGs.
+* [Lottie] - Addressed issue with multiple lottie elements not being able to be used when inside a GutenBricks template.
+* [General] - Security patch update.
+
 = 1.4.2 ( Feb 27, 2024 ) =
 * [Header Extras] - Overlay/sticky header now compatible with sites/pages using Bricks' "boxed" layout option.
 * [Dynamic Table] - Fixed the issue where 'echo' dynamic tag wasn't always outputting correctly inside of cells.
