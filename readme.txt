@@ -79,6 +79,9 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.4.4 ( Mar 13, 2024 ) =
+* [General] - Security improvement.
+
 = 1.4.3 ( Mar 12, 2024 ) =
 * [Star Ratings] - Fixed issue with icon size not working with SVGs.
 * [Lottie] - Addressed issue with multiple lottie elements not being able to be used when inside a GutenBricks template.
