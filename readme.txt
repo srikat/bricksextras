@@ -79,6 +79,9 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.4.5 ( Mar 15, 2024 ) =
+* [Nestable Table] - New element for creating nestable tables. Supports Bricks' AJAX filters, search and pagination, column stacking for mobile and using any elements inside the table.
+
 = 1.4.4 ( Mar 13, 2024 ) =
 * [General] - Security improvement.
 
