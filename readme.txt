@@ -1,7 +1,7 @@
 === BricksExtras ===
 Contributors: David Browne, Sridhar Katakam
 Tags: bricks, bricks builder
-Requires at least: 6.4.2
+Requires at least: 6.4.3
 Tested up to: 10.0.0
 Requires PHP: 8.0
 Stable tag: trunk
@@ -32,23 +32,24 @@ Current elements:
 16. Interactive Cursor
 17. Lottie
 18. Modal (template), Modal
-19. Offcanvas (template), Offcanvas
-20. Popover / Tooltips
-21. Pro Accordion
-22. Pro Alert
-23. Pro Slider, Pro Slider Control, Pro Slider Gallery
-24. Pro Tabs
-25. Reading Progress Bar
-26. Read More / Less
-27. Shortcode Wrapper
-28. Site Breadcrumbs
-29. Slide Menu
-30. Social Share
-31. Star Rating
-32. Table of Contents
-33. Toggle Switch
-34. WPGB Facet Styler
-35. WS Form
+19. Nestable Table
+20. Offcanvas (template), Offcanvas
+21. Popover / Tooltips
+22. Pro Accordion
+23. Pro Alert
+24. Pro Slider, Pro Slider Control, Pro Slider Gallery
+25. Pro Tabs
+26. Reading Progress Bar
+27. Read More / Less
+28. Shortcode Wrapper
+29. Site Breadcrumbs
+30. Slide Menu
+31. Social Share
+32. Star Rating
+33. Table of Contents
+34. Toggle Switch
+35. WPGB Facet Styler
+36. WS Form
 
 Current features:
 
@@ -79,6 +80,10 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.4.6 ( Mar 15, 2024 ) =
+* [Lottie] - Fixed JS error in builder when on hover mode.
+* [Nestable Table] - Added more style settings & better default styles.
+
 = 1.4.5 ( Mar 15, 2024 ) =
 * [Nestable Table] - New element for creating nestable tables. Supports Bricks' AJAX filters, search and pagination, column stacking for mobile and using any elements inside the table.
 
@@ -92,7 +97,7 @@ Valid license key should be entered for the plugin to function and to receive au
 
 = 1.4.2 ( Feb 27, 2024 ) =
 * [Header Extras] - Overlay/sticky header now compatible with sites/pages using Bricks' "boxed" layout option.
-* [Dynamic Table] - Fixed the issue where 'echo' dynamic tag wasn't always outputting correctly inside of cells.
+* [Dynamic Table] - Fixed an issue where the "echo" dynamic tag wasn't always outputting correctly inside cells.
 
 = 1.4.1 ( Feb 15, 2024 ) =
 * [General] - Added support for elements to be used inside Bricks' new AJAX search results, AJAX filters and AJAX popup content.
