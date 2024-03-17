@@ -80,6 +80,18 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.4.7 ( Mar 18, 2024 ) =
+* [Modal / Modal Template] - Added the ability to show modal only once per session.
+* [Slide Menu] - Can now use custom icons for the sub menu dropdown button and control over transform/colors.
+* [Read More] - New interactions added to toggle/collapse/expand via Bricks' interactions.
+* [Read More] - Fixed the issue with read more links no longer collapsing when used with Bricks' Load more interaction.
+* [Pro Tabs] - New interactions added to open any tab (or accordion) at the chosen index.
+* [Nestable Table] - Added sticky table header option.
+* [Pro Slider] - Performance - icon library no longer loaded by default for prev/next icons.
+* [Pro Slider Control] - Performance - icon library no longer loaded by default for icons.
+* [Nestable Table] - Fixed the issue where labels weren't updating after changing.
+* [General] - JS Performance improvements on frontend.
+
 = 1.4.6 ( Mar 15, 2024 ) =
 * [Lottie] - Fixed JS error in builder when on hover mode.
 * [Nestable Table] - Added more style settings & better default styles.
