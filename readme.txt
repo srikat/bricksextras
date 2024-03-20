@@ -80,6 +80,15 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.4.8 ( Mar 21, 2024 ) =
+* [Popover] - Now supports being used inside query loops using Bricks' infinite scroll.
+* [Social Share] - Added Print button as new option.
+* [Hotspots] - Exposed the instance so can be controlled via JS (see dev docs).
+* [Hotspots] - Can be now closed with data-x-close attribute inside hotspot content.
+* [Pro Slider Gallery] - Fixed the issue with Splide lazy loading sometimes causing images to not display.
+* [Pro Slider] - Adjusted the default arrow CSS to prevent user uploaded SVGs from being targeted.
+* [Dynamic Table] - Fixed the issue where table wouldn't complete loading if empty attributes were added to columns.
+
 = 1.4.7 ( Mar 18, 2024 ) =
 * [Modal / Modal Template] - Added the ability to show modal only once per session.
 * [Slide Menu] - Can now use custom icons for the sub menu dropdown button and control over transform/colors.
