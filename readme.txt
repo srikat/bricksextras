@@ -32,24 +32,23 @@ Current elements:
 16. Interactive Cursor
 17. Lottie
 18. Modal (template), Modal
-19. Nestable Table
-20. Offcanvas (template), Offcanvas
-21. Popover / Tooltips
-22. Pro Accordion
-23. Pro Alert
-24. Pro Slider, Pro Slider Control, Pro Slider Gallery
-25. Pro Tabs
-26. Reading Progress Bar
-27. Read More / Less
-28. Shortcode Wrapper
-29. Site Breadcrumbs
-30. Slide Menu
-31. Social Share
-32. Star Rating
-33. Table of Contents
-34. Toggle Switch
-35. WPGB Facet Styler
-36. WS Form
+19. Offcanvas (template), Offcanvas
+20. Popover / Tooltips
+21. Pro Accordion
+22. Pro Alert
+23. Pro Slider, Pro Slider Control, Pro Slider Gallery
+24. Pro Tabs
+25. Reading Progress Bar
+26. Read More / Less
+27. Shortcode Wrapper
+28. Site Breadcrumbs
+29. Slide Menu
+30. Social Share
+31. Star Rating
+32. Table of Contents
+33. Toggle Switch
+34. WPGB Facet Styler
+35. WS Form
 
 Current features:
 
@@ -80,14 +79,29 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.4.9 ( Apr 16, 2024 ) =
+* [Social Share] - Added more print options, including the ability to print specific parts of the page.
+* [Social Share] - Added an option to customize the subject/body text of email.
+* [Copy to Clipboard] - Added support for copying user-added content from inputs/textareas.
+* [Table of Contents] - Conditional display - choose a minimum number of headings found in content to display the table.
+* [Pro Tabs] - Improved keyboard accessibility.
+* [Pro Tabs] - Added a "tab orientation" setting to allow for changing left/right key navigation to up/down if building a vertical layout.
+* [Image Hotspots] - Added a new interaction option for selected markers.
+* [Popover] - Added new interaction options for popovers opening/closing.
+* [Image Hotspots] - Added an option to toggle moving user focus into popover content when a marker is selected via keyboard.
+* [Toggle Switch] - Labels now support HTML.
+* [WPGB Facet styler] - Added a "gap" control for the pagination facet.
+* [Dynamic Table] - Column headings now support using custom functions with the echo tag.
+* [Pro Slider] - Fixed an issue with conditional slider where it could also hide slider controls from nearby sliders.
+
 = 1.4.8 ( Mar 21, 2024 ) =
 * [Popover] - Now supports being used inside query loops using Bricks' infinite scroll.
-* [Social Share] - Added Print button as new option.
+* [Social Share] - Added Print button as a new option.
 * [Hotspots] - Exposed the instance so can be controlled via JS (see dev docs).
-* [Hotspots] - Can be now closed with data-x-close attribute inside hotspot content.
+* [Hotspots] - Can now be closed with data-x-close attribute inside hotspot content.
 * [Pro Slider Gallery] - Fixed the issue with Splide lazy loading sometimes causing images to not display.
 * [Pro Slider] - Adjusted the default arrow CSS to prevent user uploaded SVGs from being targeted.
-* [Dynamic Table] - Fixed the issue where table wouldn't complete loading if empty attributes were added to columns.
+* [Dynamic Table] - Fixed the issue where the table wouldn't complete loading if empty attributes were added to columns.
 
 = 1.4.7 ( Mar 18, 2024 ) =
 * [Modal / Modal Template] - Added the ability to show modal only once per session.
