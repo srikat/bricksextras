@@ -79,6 +79,26 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.5.1 ( Apr 22, 2024 ) =
+* [Conditions] - Added a new "Current Taxonomy Term Has Child" condition for use on taxonomy archives.
+* [Dynamic Lightbox] - Now supports using Cloudflare CDN image delivery URLs when using gallery mode.
+* [Popovers] - Added two new "action" interactions to allow for controlling via interaction settings.
+* [Pro Accordion] - Now supports filtering individual accordion items using WPGridBuilder facets.
+* [Toggle Switch] - Can now be used inside query loops.
+* [Pro Slider] - Adjusted the default "wheel sleep" setting to 700ms when using wheel navigation, preventing skipping multiple slides.
+* [WPGB Styler] - Now uses min-height rather than height for the select facet, preventing overflow when using combobox and multiselect.
+* [Pro Slider Control] - Fixed an issue where the progress bar value did not match the slide index.
+* [General] - Added more control over ARIA labeling and roles across multiple elements.
+
+= 1.5.0 ( Apr 18, 2024 ) =
+* [Dynamic Tags] - Improved reading time logic to support use with more languages.
+* [Header Search] - Now allows adding text inside the open toggle button.
+* [Image Hotspots] - Added an option to replace icons with custom images for each marker individually.
+* [Pro Accordion] - Moved the header tag outside the accordion header by default.
+* [Pro OffCanvas] - Added an option to change inner content HTML tag.
+* [Pro Slider] - Fixed an issue where Splide was adding `role=group` to slides that were list items.
+* [General] - Enhanced keyboard navigation across some elements.
+
 = 1.4.9 ( Apr 16, 2024 ) =
 * [Social Share] - Added more print options, including the ability to print specific parts of the page.
 * [Social Share] - Added an option to customize the subject/body text of email.
