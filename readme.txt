@@ -33,23 +33,24 @@ Current elements:
 17. Interactive Cursor
 18. Lottie
 19. Modal (template), Modal
-20. Offcanvas (template), Offcanvas
-21. Popover / Tooltips
-22. Pro Accordion
-23. Pro Alert
-24. Pro Slider, Pro Slider Control, Pro Slider Gallery
-25. Pro Tabs
-26. Reading Progress Bar
-27. Read More / Less
-28. Shortcode Wrapper
-29. Site Breadcrumbs
-30. Slide Menu
-31. Social Share
-32. Star Rating
-33. Table of Contents
-34. Toggle Switch
-35. WPGB Facet Styler
-36. WS Form
+20. Nestable Table
+21. Offcanvas (template), Offcanvas
+22. Popover / Tooltips
+23. Pro Accordion
+24. Pro Alert
+25. Pro Slider, Pro Slider Control, Pro Slider Gallery
+26. Pro Tabs
+27. Reading Progress Bar
+28. Read More / Less
+29. Shortcode Wrapper
+30. Site Breadcrumbs
+31. Slide Menu
+32. Social Share
+33. Star Rating
+34. Table of Contents
+35. Toggle Switch
+36. WPGB Facet Styler
+37. WS Form
 
 Current features:
 
