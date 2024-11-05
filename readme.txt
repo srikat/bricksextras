@@ -63,7 +63,10 @@ Current features:
 7. X-Ray Mode
 8. Adjacent Posts query loop extension
 9. Related Posts query loop extension
-10. Helper functions to allow control elements dynamically via interactions (see interactions tab in docs)
+10. Favorites / Wishlist query loop extension
+11. Gallery (ACF Gallery field, Meta Box Image Advanced field etc.) query loop extension
+12. WP Menu query loop extension
+13. Helper functions to allow control elements dynamically via interactions (see interactions tab in docs)
 
 == Installation ==
 
