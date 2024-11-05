@@ -24,31 +24,32 @@ Current elements:
 8. Dynamic Lightbox
 9. Dynamic Table
 10. Evergreen Countdown
-11. Fluent Form
-12. Header Notification Bar
-13. Header Row
-14. Header Search
-15. Image Hotspots
-16. Interactive Cursor
-17. Lottie
-18. Modal (template), Modal
-19. Offcanvas (template), Offcanvas
-20. Popover / Tooltips
-21. Pro Accordion
-22. Pro Alert
-23. Pro Slider, Pro Slider Control, Pro Slider Gallery
-24. Pro Tabs
-25. Reading Progress Bar
-26. Read More / Less
-27. Shortcode Wrapper
-28. Site Breadcrumbs
-29. Slide Menu
-30. Social Share
-31. Star Rating
-32. Table of Contents
-33. Toggle Switch
-34. WPGB Facet Styler
-35. WS Form
+11. Favorite Button
+12. Fluent Form
+13. Header Notification Bar
+14. Header Row
+15. Header Search
+16. Image Hotspots
+17. Interactive Cursor
+18. Lottie
+19. Modal (template), Modal
+20. Offcanvas (template), Offcanvas
+21. Popover / Tooltips
+22. Pro Accordion
+23. Pro Alert
+24. Pro Slider, Pro Slider Control, Pro Slider Gallery
+25. Pro Tabs
+26. Reading Progress Bar
+27. Read More / Less
+28. Shortcode Wrapper
+29. Site Breadcrumbs
+30. Slide Menu
+31. Social Share
+32. Star Rating
+33. Table of Contents
+34. Toggle Switch
+35. WPGB Facet Styler
+36. WS Form
 
 Current features:
 
@@ -78,6 +79,46 @@ Current features:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+Changelog page: https://bricksextras.com/changelog/
+
+= 1.5.2 ( Nov 05, 2024 ) =
+Highlights: https://bricksextras.com/whats-new-bricksextras-v1-5-2/
+
+* [Favorite Button] - New element to allow users to add/remove individual posts to favourite lists / wishlists.
+* [Query Loop Extras] New Favorites Query Loop, for displaying user's favorite posts.
+* [Query Loop Extras] - New WP Menu Query for looping through WP menu items.
+* [Query Loop Extras] - New Gallery Query for looping through images from a gallery (supports ACF Gallery field and Meta Box Image Advanced fields).
+* [Dynamic Tags] - Dynamic tags added for menu item labels, URLs, descriptions and classes.
+* [Conditions] - New "current taxonomy term has parent" condition.
+* [Site breadcrumbs] - Added an option to choose which taxonomy to display for each CPT.
+* [WooCommerce Conditions] - New condition for cart total excluding shipping cost.
+* [Star Rating] - Added an option to change color to show rating, rather than different icons.
+* [Pro Countdown] - New action "Count Up" for counting back up once the end date is in the past.
+* [General] - Better RTL support across elements.
+* [Pro Slider] - Added support for mobile-first breakpoints.
+* [Pro Slider] - Add support for using Bricks' infinite scroll on slide element query loop to add new slides dynamically as the slider moves.
+* [Pro Slider Gallery] - Added support for captions and thumbnails when linked with for Bricks' Lightbox.
+* [General Conditions] - "Is parent" condition now supports hierarchical CPTs.
+* [Header Search] - Now supports use with Bricks' live search and filter elements nested in search overlay.
+* [Dynamic Chart] - New option to show data labels inside charts.
+* [Dynamic Table] - Can now sort columns by date.
+* [Dynamic Table] - Can now remove sorting per column.
+* [Interactive Cursor] - Can now change cursor colors when moving over elements.
+* [Popover] - Added "append to footer" to allow popover to always be above all other elements.
+* [Member Conditions] - Added "active" or "cancelled" status to Wishlist Member conditions.
+* [Member Conditions] - Added "active", "cancelled", "expired", "pending" status to RCP conditions.
+* [Pro Accordion] - Improved behavior when nesting accordions inside accordions.
+* [Slide Menu] - Added option to have slide menu open at current active page.
+* [Social Share] - Added option to have links open in the same tab.
+* [Social Share] - Fixed the issue where custom URL would output as NULL.
+* [Read More] - Fixed the issue where readmore wouldn't re-open inside modal.
+* [Read More] - Fixed the issue where readmore could cause page scroll.
+* [Lottie] - Fixed the issue where URL was not accepting dynamic data.
+* [Header Extras / Rows] - Fixed the issue where Bricks' mega menu dropdown could have wrong position when opened if inside hidden header row.
+* [WooCommerce Conditions] - Fixed the issue where "Current Product in cart" set to 'false' wouldn't work.
+* [General] - Amended some default CSS to prevent ACSS from adding gaps inside nested element structures.
+* [Read More] - Prevent ACSS from affecting height transition with interpolate-size.
+* [WooCommerce Conditions] - Added "Product in cart has a coupon applied" condition. Enables you to render elements if the selected product is in the cart and has a valid coupon applied.
 
 = 1.5.1 ( Apr 22, 2024 ) =
 * [Conditions] - Added a new "Current Taxonomy Term Has Child" condition for use on taxonomy archives.
