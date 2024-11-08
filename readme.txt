@@ -85,6 +85,11 @@ Valid license key should be entered for the plugin to function and to receive au
 == Changelog ==
 Changelog page: https://bricksextras.com/changelog/
 
+= 1.5.3 ( Nov 08, 2024 ) =
+* [Pro Countdown] - Added support for city/county timezone format.
+* [Toggle Switch] - Fixed an issue from v1.5.2 preventing toggle to work in some cases.
+* [General] - Added little 'x' next to all elements in builder to help distinguish between native elements when searching. Screenshot: https://d.pr/i/hqhtiS.
+
 = 1.5.2 ( Nov 05, 2024 ) =
 Highlights: https://bricksextras.com/whats-new-bricksextras-v1-5-2/
 
