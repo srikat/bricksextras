@@ -86,6 +86,9 @@ Valid license key should be entered for the plugin to function and to receive au
 == Changelog ==
 Changelog page: https://bricksextras.com/changelog/
 
+= 1.5.4.1 ( Jul 29, 2025 ) =
+* [Media Player Audio] - Fixed media player stylesheet file slug.
+
 = 1.5.4 ( Jul 29, 2025 ) =
 * [General] - Support across all elements for Bricks' components feature.
 * [General] - Support using all elements inside nested components.
