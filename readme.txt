@@ -32,25 +32,26 @@ Current elements:
 16. Image Hotspots
 17. Interactive Cursor
 18. Lottie
-19. Modal (template), Modal
-20. Nestable Table
-21. Offcanvas (template), Offcanvas
-22. Popover / Tooltips
-23. Pro Accordion
-24. Pro Alert
-25. Pro Slider, Pro Slider Control, Pro Slider Gallery
-26. Pro Tabs
-27. Reading Progress Bar
-28. Read More / Less
-29. Shortcode Wrapper
-30. Site Breadcrumbs
-31. Slide Menu
-32. Social Share
-33. Star Rating
-34. Table of Contents
-35. Toggle Switch
-36. WPGB Facet Styler
-37. WS Form
+19. Media Player, Media Player Audio, Media Control, Media Playlist
+20. Modal (template), Modal
+21. Nestable Table
+22. Offcanvas (template), Offcanvas
+23. Popover / Tooltips
+24. Pro Accordion
+25. Pro Alert
+26. Pro Slider, Pro Slider Control, Pro Slider Gallery
+27. Pro Tabs
+28. Reading Progress Bar
+29. Read More / Less
+30. Shortcode Wrapper
+31. Site Breadcrumbs
+32. Slide Menu
+33. Social Share
+34. Star Rating
+35. Table of Contents
+36. Toggle Switch
+37. WPGB Facet Styler
+38. WS Form
 
 Current features:
 
@@ -84,6 +85,46 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 Changelog page: https://bricksextras.com/changelog/
+
+= 1.5.4 ( Jul 29, 2025 ) =
+* [General] - Support across all elements for Bricks' components feature.
+* [General] - Support using all elements inside nested components.
+* [General] - Added "component scope" option to all elements that control/target other elements.
+* [Media Player] - New nestable element for building custom video players.
+* [Media Player Audio] - New nestable element for building custom audio players.
+* [Media Control] - New controller element for adding control buttons to the media players.
+* [Media Playlist] - New controller element for adding playlist items for the media players.
+* [WP Menu Query] - Added support for custom field dynamic tags from menu items inside menu loop.
+* [WP Menu Query] - New tag for changing link targets as per individual menu item settings.
+* [Slide Menu] - Added option to replace sub menus with Bricks' mega menu template for top menu items.
+* [Dynamic Table] - New interaction for allowing users to download table data as a CSV file.
+* [Pro Tabs] - New interactions for moving to prev/next tabs.
+* [WooCommerce Conditions] - Added "User just purchased product" (for on Thank You pages)
+* [General] - Adjusted default CSS where needed for when Bricks' cascade layer system enabled.
+* [Dynamic Chart] - Chart now supports using CSS variables for color styles.
+* [Before/After Image] - Better control over touch area for mobile.
+* [Modal] - Improved focus behavior for when Auto focus on first focusable element has been disabled.
+* [Dynamic Lightbox] - Added Dom lazy loading option for content inside lightbox (performance improvement).
+* [Header Search] - Added option to change Action URL and to add additional parameter settings within the search form.
+* [Header Search] - Added option to force keyboard open on reveal for iOS.
+* [Dynamic Table] - Added option to adjust scope attribute for the table header per column.
+* [Dynamic Table] - Default sorting is now case-insensitive.
+* [Image Hotspots] - Marker titles now support including HTML tags.
+* [Favorites] - Count dynamic tags now allows counting multiple lists.
+* [Favorites] - Favorites now saved as post meta.
+* [Favorites] - Better support for page caching.
+* [Social Share] - Added Bluesky and Threads to share buttons services.
+* [Social Share] - Tooltip will now reflect custom label if one has been added.
+* [Shortcode Wrapper] - Now allows for using dynamic tags for the shortcodes.
+* [Pro Slider Control] - Can now be used to play/pause an autoscrolling slider.
+* [Popover] - Allow to be used with Bricks' infinite scroll option.
+* [WSForms] - Changed style selectors conditionally if using WS Form's own built-in form styler.
+* [Pro Slider] - Fixed issue where fade mode wouldn't show slides if RTL.
+* [Pro Slider] - Fixed issue where drag couldn't be changed per breakpoint.
+* [Pro Slider Control] - Fixed issue where the intersection option could cause autoplay button to require two clicks to play.
+* [Header Extras] - Fixed issue where setting sticky header wouldn’t override template settings.
+* [Pro Tabs] - Fixed issue where moving tabs could close Bricks' mega menu dropdown to close.
+* [Pro Tabs] - Fixed issue that could cause browser to scroll if tabs placed below tab content.
 
 = 1.5.3 ( Nov 08, 2024 ) =
 * [Pro Countdown] - Added support for city/county timezone format.
