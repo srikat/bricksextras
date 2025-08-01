@@ -86,6 +86,16 @@ Valid license key should be entered for the plugin to function and to receive au
 == Changelog ==
 Changelog page: https://bricksextras.com/changelog/
 
+= 1.5.5 ( Aug 01, 2025 ) =
+* [General] - Fixed issue that could cause BricksExtras' elements not to register in Bricks v2 (Ex.: when Lazy Blocks plugin active).
+* [Media Player] - New Start Time URL Param option (for creating video timestamp links).
+* [Media Player] - Can now customize all the player keyboard shortcuts.
+* [Media Player] - "Replayed" and "Media Switched" interaction triggers added.
+* [Media Player Control] - Better keyboard behavior for waveform and settings toggles when using custom UI.
+* [Media Player Control] - Added missing label/tooltip settings from Chapter Menu control type.
+* [WooCommerce Conditions] - "User just purchased product condition" now allows for use on custom thank you pages.
+* [WPGB styler] - Fixed issue where WP Grid Builder defaults could override general style settings for select dropdowns.
+
 = 1.5.4.1 ( Jul 29, 2025 ) =
 * [Media Player Audio] - Fixed media player stylesheet file slug.
 
@@ -107,7 +117,7 @@ Changelog page: https://bricksextras.com/changelog/
 * [Dynamic Chart] - Chart now supports using CSS variables for color styles.
 * [Before/After Image] - Better control over touch area for mobile.
 * [Modal] - Improved focus behavior for when Auto focus on first focusable element has been disabled.
-* [Dynamic Lightbox] - Added Dom lazy loading option for content inside lightbox (performance improvement).
+* [Dynamic Lightbox] - Added DOM lazy loading option for content inside lightbox (performance improvement).
 * [Header Search] - Added option to change Action URL and to add additional parameter settings within the search form.
 * [Header Search] - Added option to force keyboard open on reveal for iOS.
 * [Dynamic Table] - Added option to adjust scope attribute for the table header per column.
