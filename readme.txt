@@ -36,22 +36,24 @@ Current elements:
 20. Modal (template), Modal
 21. Nestable Table
 22. Offcanvas (template), Offcanvas
-23. Popover / Tooltips
-24. Pro Accordion
-25. Pro Alert
-26. Pro Slider, Pro Slider Control, Pro Slider Gallery
-27. Pro Tabs
-28. Reading Progress Bar
-29. Read More / Less
-30. Shortcode Wrapper
-31. Site Breadcrumbs
-32. Slide Menu
-33. Social Share
-34. Star Rating
-35. Table of Contents
-36. Toggle Switch
-37. WPGB Facet Styler
-38. WS Form
+23. Page Tour and Page Tour Step
+24. Popover / Tooltips
+25. Pro Accordion
+26. Pro Alert
+27. Pro Slider, Pro Slider Control, Pro Slider Gallery
+28. Pro Tabs
+29. QR Code
+30. Reading Progress Bar
+31. Read More / Less
+32. Shortcode Wrapper
+33. Site Breadcrumbs
+34. Slide Menu
+35. Social Share
+36. Star Rating
+37. Table of Contents
+38. Toggle Switch
+39. WPGB Facet Styler
+40. WS Form
 
 Current features:
 
@@ -85,6 +87,22 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 Changelog page: https://bricksextras.com/changelog/
+
+= 1.5.6 ( Sep 18, 2025 ) =
+* [QR Code] - New element for generating custom QR code designs based on dynamic data.
+* [Page Tour & Steps] (beta) New nestable elements for creating a sequence of popovers to guide users through steps.
+* [WP Menu Query] - Added an option to narrow down which items are output - top level items, or sub items of specific menu item.
+* [Media Player Audio] - Waveform feature now out of beta (fixed a rare issue which could cause longer audio to fall out of sync with the waveform).
+* [Pro tabs] - Added an option to prevent closing sibling items for mobile accordion for having multiple items open.
+* [Media Player] - Better RTL support for all controls.
+* [Media Player] - Dynamic tags can now be used within URLs (not just as the full URL).
+* [Pro Slider] - Added an option to auto-pause media player when sliders moves to new slide (enabled by default).
+* [Modal] - The auto-refresh of forms inside modal on close now optional (for better compatibility with BricksForge's searchable select dropdowns).
+* [Social Share] - Can now add custom data attributes to individual share links.
+* [Toggle Switch] - Added control over keyboard arrow navigation behavior for switching tabs or moving focus.
+* [Media Player] - Fixed an issue where closing fullscreen could cause page scroll.
+* [Media Player] - Fixed an issue where poster image wouldn't show on Android lock screen if media player had custom title.
+* [Favorites] - Fixed an issue where posts could be removed from favorites list when updated.
 
 = 1.5.5 ( Aug 01, 2025 ) =
 * [General] - Fixed issue that could cause BricksExtras' elements not to register in Bricks v2 (Ex.: when Lazy Blocks plugin active).
