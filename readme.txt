@@ -37,23 +37,24 @@ Current elements:
 21. Nestable Table
 22. Offcanvas (template), Offcanvas
 23. Page Tour and Page Tour Step
-24. Popover / Tooltips
-25. Pro Accordion
-26. Pro Alert
-27. Pro Slider, Pro Slider Control, Pro Slider Gallery
-28. Pro Tabs
-29. QR Code
-30. Reading Progress Bar
-31. Read More / Less
-32. Shortcode Wrapper
-33. Site Breadcrumbs
-34. Slide Menu
-35. Social Share
-36. Star Rating
-37. Table of Contents
-38. Toggle Switch
-39. WPGB Facet Styler
-40. WS Form
+24. Panorama Viewer and Panorama Scene
+25. Popover / Tooltips
+26. Pro Accordion
+27. Pro Alert
+28. Pro Slider, Pro Slider Control, Pro Slider Gallery
+29. Pro Tabs
+30. QR Code
+31. Reading Progress Bar
+32. Read More / Less
+33. Shortcode Wrapper
+34. Site Breadcrumbs
+35. Slide Menu
+36. Social Share
+37. Star Rating
+38. Table of Contents
+39. Toggle Switch
+40. WPGB Facet Styler
+41. WS Form
 
 Current features:
 
@@ -87,6 +88,18 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 Changelog page: https://bricksextras.com/changelog/
+
+= 1.5.7 ( Oct 27, 2025 ) =
+* [Page Tours] (stable) - Out of beta, slight changes to behavior and fixes.
+* [Panorama Viewer] (beta) - New element for navigating panorama images with hotspots, and creating multi-scene virtual tours.
+* [Panorama Scene] (beta) - New element for creating individual panorama scenes with hotspots.
+* [FluentCart Conditions] - New element conditions based on user purchases and current subscription status with FluentCart products.
+* [General Conditions] - Added "sequence pattern" to loop item condition (for allowing odd/even, 2n+1 type conditions inside query loops).
+* [Media Player] - Added auto-detect language option for captions (for making page's current language the default caption language, if it exists, when toggled on).
+* [Dynamic Table] - Added an option to choose which column controls the initial sort order.
+* [Pro Accordion] - Now allows custom HTML tags on the main wrapper element.
+* [Pro Accordion] - Fixed 'collapse' event not triggering if sibling item opened.
+* [Site Breadcrumbs] - Fixed the issue where 'exclude product category' not excluding some categories for a large number of categories.
 
 = 1.5.6 ( Sep 18, 2025 ) =
 * [QR Code] - New element for generating custom QR code designs based on dynamic data.
