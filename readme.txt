@@ -89,6 +89,15 @@ Valid license key should be entered for the plugin to function and to receive au
 == Changelog ==
 Changelog page: https://bricksextras.com/changelog/
 
+= 1.5.8 ( Nov 11, 2025 ) =
+* [Panaroma Viewer / Scenes] - Stable version. Improved workflow & performance in the builder and added loading spinner and nav instructions overlay.
+* [Social Share] - Added option to set seperate custom image and description for Pinterest pinning.
+* [Media Player Control] - Added option to show remaining time in time control.
+* [Dynamic Lightbox] - Fixed issue where Lightbox 'iframe' wouldn't work when both inside of a condition and inside infinite scrolled AJAX content.
+* [Media Player Audio] - Fixed an issue where title wouldn't display if populating with Bricks' query_api dynamic tag.
+* [Media Player Audio] - Fixed an issue where audio waveform could flicker when changing audio sources via playlist.
+* [Media Player] - Fixed poster-image control inside default UI not picking up poster changes.
+
 = 1.5.7 ( Oct 27, 2025 ) =
 * [Page Tours] (stable) - Out of beta, slight changes to behavior and fixes.
 * [Panorama Viewer] (beta) - New element for navigating panorama images with hotspots, and creating multi-scene virtual tours.
