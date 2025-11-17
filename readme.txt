@@ -89,9 +89,18 @@ Valid license key should be entered for the plugin to function and to receive au
 == Changelog ==
 Changelog page: https://bricksextras.com/changelog/
 
+= 1.5.9 ( Nov 17, 2025 ) =
+
+* [Media Player Audio] - Added two new control types: "artist" and "download".
+* [Dynamic Chart] - Can now customize the chart's canvas aspect-ratio.
+* [Table of Contents] - Improved heading ID generation with language-aware transliteration (replacing umlaut characters etc.).
+* [Media Player] - In-builder performance improvements.
+* [Dynamic Lightbox] - Fixed issue which could cause multiple lightboxes to trigger with Bricks' filter elements.
+* [Before After Image] - Fixed issue where input background-color visible in Firefox.
+
 = 1.5.8 ( Nov 11, 2025 ) =
 * [Panaroma Viewer / Scenes] - Stable version. Improved workflow & performance in the builder and added loading spinner and nav instructions overlay.
-* [Social Share] - Added option to set seperate custom image and description for Pinterest pinning.
+* [Social Share] - Added option to set separate custom image and description for Pinterest pinning.
 * [Media Player Control] - Added option to show remaining time in time control.
 * [Dynamic Lightbox] - Fixed issue where Lightbox 'iframe' wouldn't work when both inside of a condition and inside infinite scrolled AJAX content.
 * [Media Player Audio] - Fixed an issue where title wouldn't display if populating with Bricks' query_api dynamic tag.
