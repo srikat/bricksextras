@@ -89,6 +89,11 @@ Valid license key should be entered for the plugin to function and to receive au
 == Changelog ==
 Changelog page: https://bricksextras.com/changelog/
 
+= 1.6.0 ( Nov 18, 2025 ) =
+* [Media Player Audio] - New control types will now display conditionally based on current media settings.
+* [Media Player Audio] - Replaced attribute option with new UI for adding download options.
+* [Media Player Control] - Fixed the missing "replay icon" settings on default UI option.
+
 = 1.5.9 ( Nov 17, 2025 ) =
 
 * [Media Player Audio] - Added two new control types: "artist" and "download".
