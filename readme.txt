@@ -29,7 +29,7 @@ Current elements:
 13. Header Notification Bar
 14. Header Row
 15. Header Search
-16. Image Hotspots
+16. Image Hotspots and Image Hotspot Marker
 17. Interactive Cursor
 18. Lottie
 19. Media Player, Media Player Audio, Media Control, Media Playlist
@@ -88,6 +88,19 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 Changelog page: https://bricksextras.com/changelog/
+
+= 1.6.1 ( Dec 10, 2025 ) =
+* [Image Hotspots] - New nestable option and support for using with Bricks filters.
+* [Image Hotspot Marker] - New nestable element for adding individual markers to the image.
+* [Pro Slider Control] - New segment options for progress bar and autoplay progress.
+* [Media Player Audio] - Better support for live streams (and switching between live & on-demand in playlists).
+* [Media Player] - Now supports source URLs with no file extension by setting MEME type.
+* [Media Player] - Improved poster fetching / performance.
+* [Before / After Image] - Improved the slider motion and now supports Image hotspots element replacing the second image.
+* [Panorama Viewer] - No longer displays "No panorama image was specified" if scene ID does not exist or is missing the image.
+* [FluentCart Conditon] - Fixed issue where conditions not accessible in settings.
+* [Back to Top] - Fixed incompatibility with Usercentrics.
+* [Pro Tabs] - Fixed adaptive height not animating on the very first tab switch.
 
 = 1.6.0 ( Nov 18, 2025 ) =
 * [Media Player Audio] - New control types will now display conditionally based on current media settings.
