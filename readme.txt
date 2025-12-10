@@ -89,6 +89,9 @@ Valid license key should be entered for the plugin to function and to receive au
 == Changelog ==
 Changelog page: https://bricksextras.com/changelog/
 
+= 1.6.2 ( Dec 10, 2025 ) =
+* [General] - Fixed minification issue of Read More JS file.
+
 = 1.6.1 ( Dec 10, 2025 ) =
 * [Image Hotspots] - New nestable option and support for using with Bricks filters.
 * [Image Hotspot Marker] - New nestable element for adding individual markers to the image.
