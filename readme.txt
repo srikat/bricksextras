@@ -89,6 +89,13 @@ Valid license key should be entered for the plugin to function and to receive au
 == Changelog ==
 Changelog page: https://bricksextras.com/changelog/
 
+= 1.6.3 ( Dec 17, 2025 ) =
+* [Dynamic Chart] - Now supports styling chart canvas via Bricks' v2.2 new color options. 
+* [Dynamic Chart] - Added support for populating with JSON via Bricks v2.2 'Array' loop type.
+* [Page Tours] - Page steps can now be used with dynamically loaded content.
+* [Page Tours] - Added new interaction triggers for both starting/resuming based on config / user progress.
+* [Favorites] - Fixed issue where counter wouldn't always update immediately if post deleted.
+
 = 1.6.2 ( Dec 10, 2025 ) =
 * [General] - Fixed minification issue of Read More JS file.
 
