@@ -89,8 +89,20 @@ Valid license key should be entered for the plugin to function and to receive au
 == Changelog ==
 Changelog page: https://bricksextras.com/changelog/
 
+= 1.6.4 ( Jan 22, 2026 ) =
+* [Licensing] - Added a button to 'revalidate license' after site migration without needing to re-enter the license key.
+* [Licensing] - Now supports defining license key in wp-config.php file via the BRICKSEXTRAS_LICENSE_KEY constant.
+* [Gallery Query Loop] - Now support AJAX pagination via Bricks' pagination element (from Bricks v2.2+).
+* [Dynamic Chart] - Added chart stacking option when displaying multiple datasets.
+* [Media Player] - Added option to autoplay when inside a modal that reopens.
+* [Page Tour] - 'Remember progress' now supports multiple tours on the same page.
+* [Page Tour] - Added option to save progress without auto-resuming on page load, allowing tours to be manually resumed via interactions.
+* [Page Tour] - Fixed 'hidden' interaction trigger not firing.
+* [General] - Improved in-builder translations. Majority of setting labels now use Bricks' included translations (remaining are in pot file).
+* [Star rating] - Fixed size not applying to custom SVGs.
+
 = 1.6.3 ( Dec 17, 2025 ) =
-* [Dynamic Chart] - Now supports styling chart canvas via Bricks' v2.2 new color options. 
+* [Dynamic Chart] - Now supports styling chart canvas via Bricks' v2.2 new color options.
 * [Dynamic Chart] - Added support for populating with JSON via Bricks v2.2 'Array' loop type.
 * [Page Tours] - Page steps can now be used with dynamically loaded content.
 * [Page Tours] - Added new interaction triggers for both starting/resuming based on config / user progress.
@@ -450,7 +462,7 @@ Highlights: https://bricksextras.com/whats-new-bricksextras-v1-5-2/
 = 1.3.0 ( July 27, 2023 ) =
 * [Conditions] - Added the first batch of extra conditions to Bricks for a variety of use cases + integrations with membership plugins.
 * [Dynamic Lightbox] - Added support for adding custom prev/next buttons inside lightbox content area when using nest elements and grouping.
-* [Site Breadcrumbs] - Added truncate option to add post title character limit. 
+* [Site Breadcrumbs] - Added truncate option to add post title character limit.
 * [Site Breadcrumbs] - Added an option to use icon as home link.
 * [Pro Slider] - Added better support for adding sliders inside sliders.
 * [Content Timeline] - Can now change the HTML tag on the inner container (ideal for ul > li).
