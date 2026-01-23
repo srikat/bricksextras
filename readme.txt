@@ -89,6 +89,10 @@ Valid license key should be entered for the plugin to function and to receive au
 == Changelog ==
 Changelog page: https://bricksextras.com/changelog/
 
+= 1.6.5 (Jan 23, 2026) =
+* [Dynamic Chart] Fixed tooltip animation not showing.
+* [Pro Slider] Fixed slide height control not being able to be set.
+
 = 1.6.4 ( Jan 22, 2026 ) =
 * [Licensing] - Added a button to 'revalidate license' after site migration without needing to re-enter the license key.
 * [Licensing] - Now supports defining license key in wp-config.php file via the BRICKSEXTRAS_LICENSE_KEY constant.
