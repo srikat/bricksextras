@@ -89,6 +89,9 @@ Valid license key should be entered for the plugin to function and to receive au
 == Changelog ==
 Changelog page: https://bricksextras.com/changelog/
 
+= 1.6.6 ( Jan 25, 2026 ) =
+* [Site breadcrumbs] - Fixed issue causing dynamic data tags to not render.
+
 = 1.6.5 (Jan 23, 2026) =
 * [Dynamic Chart] Fixed tooltip animation not showing.
 * [Pro Slider] Fixed slide height control not being able to be set.
