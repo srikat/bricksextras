@@ -52,9 +52,10 @@ Current elements:
 36. Social Share
 37. Star Rating
 38. Table of Contents
-39. Toggle Switch
-40. WPGB Facet Styler
-41. WS Form
+39. Toast, Toast Notification
+40. Toggle Switch
+41. WPGB Facet Styler
+42. WS Form
 
 Current features:
 
@@ -89,10 +90,18 @@ Valid license key should be entered for the plugin to function and to receive au
 == Changelog ==
 Changelog page: https://bricksextras.com/changelog/
 
+= 1.6.7 ( Jan 30, 2026 ) =
+* [Toast] (beta) New element for adding container to receive toast notifications.
+* [Toast Notification] (beta) New element for adding individual notifications and triggers.
+* [Toggle Switch] Added an option to set the initial state as checked/unchecked.
+* [Media Player] Added an option to disable the media announcer.
+* [Gallery Query Loop] Fixed the issue preventing gallery output when inside nested loops.
+* [General] Fixed compatibility for older versions of PHP (7.4).
+
 = 1.6.6 ( Jan 25, 2026 ) =
 * [Site breadcrumbs] - Fixed issue causing dynamic data tags to not render.
 
-= 1.6.5 (Jan 23, 2026) =
+= 1.6.5 ( Jan 23, 2026 ) =
 * [Dynamic Chart] Fixed tooltip animation not showing.
 * [Pro Slider] Fixed slide height control not being able to be set.
 
