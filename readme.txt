@@ -90,13 +90,31 @@ Valid license key should be entered for the plugin to function and to receive au
 == Changelog ==
 Changelog page: https://bricksextras.com/changelog/
 
+= 1.6.8 ( Feb 18, 2026 ) =
+* [Toast Notification] - Stable release.
+* [Media Player] - Added an option to have captions enabled by default.
+* [Media Player] - Added an option to have caption language auto-selected.
+* [Media Player] - Added the ability to force controls to always be visible (set controls delay to -1).
+* [Media Player] - Waveform bars now support Bricks v2.2's color picker.
+* [Dynamic Chart] - Spacing / font sizes / aspect-ratio and label rotations now are all changeable per breakpoint.
+* [Dynamic Chart] - Now supports multi-line dataset labels and x-axis labels by using br tags.
+* [Header Search] - New option to display submit button next to search input.
+* [Fluent Form] - Added controls for styling "button type" radio inputs.
+* [Notification Bar] - Aria label on dismiss button is now customizable.
+* [Social Share] - Switched to modern 'x.com/intent/post?' share URL for X.
+* [WooCommerce Conditions] - Added "User has orders with status" condition.
+* [WooCommerce Conditions] - Math type conditions (Cart count etc.) now support dynamic data.
+* [Adjacent posts] - Fixed an issue where posts in other languages could be included in loop if sorting by menu_order when using Polylang.
+* [General] - Fixed color settings being too small in builder on various elements (since Bricks v2.2).
+* [General] - All BricksExtras dynamic tags are now registered through Bricks' filters rather than a custom provider.
+
 = 1.6.7 ( Jan 30, 2026 ) =
-* [Toast] (beta) New element for adding container to receive toast notifications.
-* [Toast Notification] (beta) New element for adding individual notifications and triggers.
-* [Toggle Switch] Added an option to set the initial state as checked/unchecked.
-* [Media Player] Added an option to disable the media announcer.
-* [Gallery Query Loop] Fixed the issue preventing gallery output when inside nested loops.
-* [General] Fixed compatibility for older versions of PHP (7.4).
+* [Toast] - (beta) New element for adding container to receive toast notifications.
+* [Toast Notification] - (beta) New element for adding individual notifications and triggers.
+* [Toggle Switch] - Added an option to set the initial state as checked/unchecked.
+* [Media Player] - Added an option to disable the media announcer.
+* [Gallery Query Loop] - Fixed the issue preventing gallery output when inside nested loops.
+* [General] - Fixed compatibility for older versions of PHP (7.4).
 
 = 1.6.6 ( Jan 25, 2026 ) =
 * [Site breadcrumbs] - Fixed issue causing dynamic data tags to not render.
