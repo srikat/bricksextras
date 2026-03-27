@@ -17,45 +17,46 @@ Current elements:
 1. Back to Top
 2. Before / After Image
 3. Burger Trigger
-4. Content Switcher
-5. Content Timeline
-6. Copy To Clipboard
-7. Dynamic Chart
-8. Dynamic Lightbox
-9. Dynamic Table
-10. Evergreen Countdown
-11. Favorite Button
-12. Fluent Form
-13. Header Notification Bar
-14. Header Row
-15. Header Search
-16. Image Hotspots and Image Hotspot Marker
-17. Interactive Cursor
-18. Lottie
-19. Media Player, Media Player Audio, Media Control, Media Playlist
-20. Modal (template), Modal
-21. Nestable Table
-22. Offcanvas (template), Offcanvas
-23. Page Tour and Page Tour Step
-24. Panorama Viewer and Panorama Scene
-25. Popover / Tooltips
-26. Pro Accordion
-27. Pro Alert
-28. Pro Slider, Pro Slider Control, Pro Slider Gallery
-29. Pro Tabs
-30. QR Code
-31. Reading Progress Bar
-32. Read More / Less
-33. Shortcode Wrapper
-34. Site Breadcrumbs
-35. Slide Menu
-36. Social Share
-37. Star Rating
-38. Table of Contents
-39. Toast, Toast Notification
-40. Toggle Switch
-41. WPGB Facet Styler
-42. WS Form
+4. Color Scheme Toggle
+5. Content Switcher
+6. Content Timeline
+7. Copy To Clipboard
+8. Dynamic Chart
+9. Dynamic Lightbox
+10. Dynamic Table
+11. Evergreen Countdown
+12. Favorite Button
+13. Fluent Form
+14. Header Notification Bar
+15. Header Row
+16. Header Search
+17. Image Hotspots and Image Hotspot Marker
+18. Interactive Cursor
+19. Lottie
+20. Media Player, Media Player Audio, Media Control, Media Playlist
+21. Modal (template), Modal
+22. Nestable Table
+23. Offcanvas (template), Offcanvas
+24. Page Tour and Page Tour Step
+25. Panorama Viewer and Panorama Scene
+26. Popover / Tooltips
+27. Pro Accordion
+28. Pro Alert
+29. Pro Slider, Pro Slider Control, Pro Slider Gallery
+30. Pro Tabs
+31. QR Code
+32. Reading Progress Bar
+33. Read More / Less
+34. Shortcode Wrapper
+35. Site Breadcrumbs
+36. Slide Menu
+37. Social Share
+38. Star Rating
+39. Table of Contents
+40. Toast, Toast Notification
+41. Toggle Switch
+42. WPGB Facet Styler
+43. WS Form
 
 Current features:
 
@@ -89,6 +90,21 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 Changelog page: https://bricksextras.com/changelog/
+
+= 1.6.9 ( Mar 27, 2026 ) =
+* [Color Scheme Toggle] - New element for toggling dark/light/system mode for Bricks color schemes with included view transitions.
+* [General] - All <canvas> elements will now redraw colors when Bricks' color mode toggles from dark/light (applies to charts, QR codes, and audio waveforms).
+* [General Conditions] - Added "Current Taxonomy Term is" and "Current Taxonomy Term is descendant of" conditions.
+* [FluentCart Conditions] - Added "user just purchased" condition for use on receipt pages.
+* [Page Tour] - Added an option to customize arrow size.
+* [Lightbox] - Will now pause Bricks' video elements when moving between grouped lightboxes.
+* [Header Search] - Placeholder text and screen reader label can now be set independently.
+* [Header Search] - Fixed open button still focusable if hidden behind search form.
+* [Media Player] - Fixed issue causing "Reset on play" not to work on iOS when on low battery mode.
+* [Media Player Audio] - Fix issue causing artist name not visible if not using a playlist.
+* [WooCommerce Conditions] - Fix "product in cart" not working if condition used inside filtered loop.
+* [Site Breadcrumbs] - Added option to use icons/svgs for separators.
+* [Site Breadcrumbs] - Added inline display option to allow text to wrap as one line.
 
 = 1.6.8 ( Feb 18, 2026 ) =
 * [Toast Notification] - Stable release.
