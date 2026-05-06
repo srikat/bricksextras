@@ -14,49 +14,50 @@ Lightweight component library for Bricks Builder
 
 Current elements:
 
-1. Back to Top
-2. Before / After Image
-3. Burger Trigger
-4. Color Scheme Toggle
-5. Content Switcher
-6. Content Timeline
-7. Copy To Clipboard
-8. Dynamic Chart
-9. Dynamic Lightbox
-10. Dynamic Table
-11. Evergreen Countdown
-12. Favorite Button
-13. Fluent Form
-14. Header Notification Bar
-15. Header Row
-16. Header Search
-17. Image Hotspots and Image Hotspot Marker
-18. Interactive Cursor
-19. Lottie
-20. Media Player, Media Player Audio, Media Control, Media Playlist
-21. Modal (template), Modal
-22. Nestable Table
-23. Offcanvas (template), Offcanvas
-24. Page Tour and Page Tour Step
-25. Panorama Viewer and Panorama Scene
-26. Popover / Tooltips
-27. Pro Accordion
-28. Pro Alert
-29. Pro Slider, Pro Slider Control, Pro Slider Gallery
-30. Pro Tabs
-31. QR Code
-32. Reading Progress Bar
-33. Read More / Less
-34. Shortcode Wrapper
-35. Site Breadcrumbs
-36. Slide Menu
-37. Social Share
-38. Star Rating
-39. Table of Contents
-40. Toast, Toast Notification
-41. Toggle Switch
-42. WPGB Facet Styler
-43. WS Form
+1.	Back to Top
+2.	Before / After Image
+3.	Burger Trigger
+4.	Calendar
+5.	Color Scheme Toggle
+6.	Content Switcher
+7.	Content Timeline
+8.	Copy To Clipboard
+9.	Dynamic Chart
+10.	Dynamic Lightbox
+11.	Dynamic Table
+12.	Evergreen Countdown
+13.	Favorite Button
+14.	Fluent Form
+15.	Header Notification Bar
+16.	Header Row
+17.	Header Search
+18.	Image Hotspots and Image Hotspot Marker
+19.	Interactive Cursor
+20.	Lottie
+21.	Media Player, Media Player Audio, Media Control, Media Playlist
+22.	Modal (template), Modal
+23.	Nestable Table
+24.	Offcanvas (template), Offcanvas
+25.	Page Tour and Page Tour Step
+26.	Panorama Viewer and Panorama Scene
+27.	Popover / Tooltips
+28.	Pro Accordion
+29.	Pro Alert
+30.	Pro Slider, Pro Slider Control, Pro Slider Gallery
+31.	Pro Tabs
+32.	QR Code
+33.	Reading Progress Bar
+34.	Read More / Less
+35.	Shortcode Wrapper
+36.	Site Breadcrumbs
+37.	Slide Menu
+38.	Social Share
+39.	Star Rating
+40.	Table of Contents
+41.	Toast, Toast Notification
+42.	Toggle Switch
+43.	WPGB Facet Styler
+44.	WS Form
 
 Current features:
 
@@ -90,6 +91,27 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 Changelog page: https://bricksextras.com/changelog/
+
+= 1.7.0 ( May 06, 2026 ) =
+* [Calendar] – (Beta) New element for displaying query loop items as events in a calendar view, with support for Bricks' filters and recurring events.
+* [Pro Slider Control] – Added a pagination option for including external pagination dots for sliders.
+* [Page Tours] – Added hashlink navigation to allow users to skip to different parts of page tours via links inside the steps.
+* [Panorama Viewer] – Added hashlink navigation to allow users to navigate to different hotspots via links inside the tooltips.
+* [Panorama Viewer] – Improved keyboard navigation; added options to include scene titles and custom ARIA labels on hotspot buttons and links.
+* [Color Scheme Toggle] – Options now sync when using multiple toggles on the same page.
+* [Cursor] – Added the ability to add hover text per browser language or site language.
+* [Table of Contents] – The scroll tracker now supports multiple tables of contents on the same page.
+* [Slide Menu] – Added an option to reposition the sub-toggle icon within the structure.
+* [Slide Menu] – Added more style controls for toggle icons.
+* [Site Breadcrumbs] – Added an option to include a custom ARIA label.
+* [Site Breadcrumbs] – Fixed an unclosed <span> tag.
+* [Dynamic Chart] – Updated Chart.js to the latest version.
+* [Lottie] – Updated Lottie to the latest version.
+* [Media Player Audio] – Fixed the incorrect positioning of captions.
+* [Read More] – Fixed an issue where the toggle icon did not work with custom icon sets.
+* [General] – Fixed an issue where some elements failed to initialize if the SureRank plugin is active.
+* [General] – Fixed an issue where quotes and special characters were displayed as HTML entities in certain config settings.
+* [Header Extras] – Fixed an issue where the Bricks' mega menu dropdown was not correctly positioned when placed inside a hidden row.
 
 = 1.6.9 ( Mar 27, 2026 ) =
 * [Color Scheme Toggle] - New element for toggling dark/light/system mode for Bricks color schemes with included view transitions.
