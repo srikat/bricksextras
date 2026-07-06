@@ -17,7 +17,7 @@ Current elements:
 1.	Back to Top
 2.	Before / After Image
 3.	Burger Trigger
-4.	Calendar, Add to Calendar
+4.	Calendar and Add to Calendar
 5.	Color Scheme Toggle
 6.	Content Switcher
 7.	Content Timeline
