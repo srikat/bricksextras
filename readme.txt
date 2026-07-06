@@ -17,7 +17,7 @@ Current elements:
 1.	Back to Top
 2.	Before / After Image
 3.	Burger Trigger
-4.	Calendar
+4.	Calendar, Add to Calendar
 5.	Color Scheme Toggle
 6.	Content Switcher
 7.	Content Timeline
@@ -91,6 +91,25 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 Changelog page: https://bricksextras.com/changelog/
+
+= 1.7.1 ( May 06, 2026 ) =
+* [Calendar] - Stable release, migrated to FullCalendar v7, accessibility improvements, new description/location/event display fields.
+* [Add to Calendar] - New element for enabling users to save event details to Google / Outlook / Yahoo calendars.
+* [Dynamic Table] - Sort by numbers now supports formatted values (currency symbols, percentages, commas).
+* [Toast Notification] - Added support for targeting a specific nested element when updating message text in interactions (Ex.: "My message @.my-text-element").
+* [Offcanvas] - Added an option to exclude selectors from the hash to close behavior.
+* [Pro Tabs] - Hash link matching now supports absolute URLs, not just relative.
+* [Countdown] - Added control for redirect destinations (internal posts, dynamic data, custom URLs), delay time and custom text to display during delay.
+* [Dynamic Lightbox] - Gallery option now supports video from ACF Gallery fields.
+* [Dynamic Lightbox] - Added option to customize "Read More" text and Truncate length for captions on mobile.
+* [Page Tour] - Updated to the latest version of ShepherdJS.
+* [Pro Offcanvas] – Removed the inert polyfill (sufficient native browser support).
+* [Pro Slider] - Fixed autoplay progress bar not updating when play/pause button connected to same slider.
+* [Header Extras] - Fixed sticky header showing initial state on page refresh in Firefox if page already scrolled.
+* [General] - Fixed dynamic data options not rendering inside Bricks' array query loop type.
+* [Media Control] - Fixed seek distance always defaulting to +30 for the seek forward control.
+* [Media Player] - Fixed "click to play" not triggering for the default UI.
+* [Media Player] - Fixed "Uncaught DOMException" error in Firefox when local poster image set.
 
 = 1.7.0 ( May 06, 2026 ) =
 * [Calendar] – (Beta) New element for displaying query loop items as events in a calendar view, with support for Bricks' filters and recurring events.
